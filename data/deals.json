@@ -12,8 +12,8 @@
     "verified": "2026-08-31",
     "confidence": "High",
     "score": 95,
-    "lat": 33.2473,
-    "lng": -111.6343
+    "lat": 33.2508,
+    "lng": -111.6346
   },
   {
     "id": 2,
@@ -28,8 +28,8 @@
     "verified": "2026-08-31",
     "confidence": "High",
     "score": 95,
-    "lat": 33.4152,
-    "lng": -111.8315
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 3,
@@ -44,8 +44,8 @@
     "verified": "2026-08-31",
     "confidence": "High",
     "score": 94,
-    "lat": 33.249,
-    "lng": -111.634
+    "lat": 33.2487,
+    "lng": -111.684
   },
   {
     "id": 4,
@@ -60,8 +60,8 @@
     "verified": "2026-08-31",
     "confidence": "High",
     "score": 97,
-    "lat": 33.415,
-    "lng": -111.685
+    "lat": 33.3938847,
+    "lng": -111.5994342
   },
   {
     "id": 5,
@@ -76,8 +76,8 @@
     "verified": "2026-08-31",
     "confidence": "High",
     "score": 91,
-    "lat": 33.51,
-    "lng": -112.064
+    "lat": 33.517968,
+    "lng": -112.06551
   },
   {
     "id": 6,
@@ -92,8 +92,8 @@
     "verified": "2026-08-31",
     "confidence": "High",
     "score": 92,
-    "lat": 33.51,
-    "lng": -112.064
+    "lat": 33.517968,
+    "lng": -112.06551
   },
   {
     "id": 7,
@@ -108,8 +108,8 @@
     "verified": "2026-08-31",
     "confidence": "High",
     "score": 89,
-    "lat": 33.51,
-    "lng": -112.064
+    "lat": 33.517968,
+    "lng": -112.06551
   },
   {
     "id": 8,
@@ -140,8 +140,8 @@
     "verified": "2026-08-31",
     "confidence": "Medium",
     "score": 84,
-    "lat": 33.334,
-    "lng": -111.859
+    "lat": 33.3358606,
+    "lng": -111.8596033
   },
   {
     "id": 10,
@@ -156,8 +156,8 @@
     "verified": "2026-08-31",
     "confidence": "Medium",
     "score": 80,
-    "lat": 33.3062,
-    "lng": -111.8413
+    "lat": 33.307713,
+    "lng": -111.890392
   },
   {
     "id": 11,
@@ -172,8 +172,8 @@
     "verified": "2026-08-31",
     "confidence": "Medium-High",
     "score": 90,
-    "lat": 33.459,
-    "lng": -111.698
+    "lat": 33.38118,
+    "lng": -111.754507
   },
   {
     "id": 12,
@@ -188,8 +188,8 @@
     "verified": "2026-08-31",
     "confidence": "Medium-High",
     "score": 88,
-    "lat": 33.305,
-    "lng": -111.842
+    "lat": 33.30485798,
+    "lng": -111.84234548
   },
   {
     "id": 13,
@@ -204,8 +204,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 96,
-    "lat": 33.453,
-    "lng": -111.665
+    "lat": 33.415479,
+    "lng": -111.677211
   },
   {
     "id": 14,
@@ -220,8 +220,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 93,
-    "lat": 33.453,
-    "lng": -111.665
+    "lat": 33.415479,
+    "lng": -111.677211
   },
   {
     "id": 15,
@@ -236,8 +236,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 95,
-    "lat": 33.414,
-    "lng": -111.858
+    "lat": 33.3932,
+    "lng": -111.8716
   },
   {
     "id": 16,
@@ -252,8 +252,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 94,
-    "lat": 33.414,
-    "lng": -111.858
+    "lat": 33.3932,
+    "lng": -111.8716
   },
   {
     "id": 17,
@@ -268,8 +268,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 91,
-    "lat": 33.414,
-    "lng": -111.695
+    "lat": 33.3935,
+    "lng": -111.6964
   },
   {
     "id": 18,
@@ -284,8 +284,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 97,
-    "lat": 33.437,
-    "lng": -111.719
+    "lat": 33.4384,
+    "lng": -111.7185
   },
   {
     "id": 19,
@@ -300,8 +300,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 96,
-    "lat": 33.248,
-    "lng": -111.634
+    "lat": 33.254166,
+    "lng": -111.632637
   },
   {
     "id": 20,
@@ -316,8 +316,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 96,
-    "lat": 33.248,
-    "lng": -111.634
+    "lat": 33.254166,
+    "lng": -111.632637
   },
   {
     "id": 21,
@@ -332,8 +332,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 94,
-    "lat": 33.437,
-    "lng": -111.719
+    "lat": 33.4384,
+    "lng": -111.7185
   },
   {
     "id": 22,
@@ -348,8 +348,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 95,
-    "lat": 33.248,
-    "lng": -111.875
+    "lat": 33.2785748,
+    "lng": -111.790821
   },
   {
     "id": 23,
@@ -364,8 +364,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 98,
-    "lat": 33.248,
-    "lng": -111.634
+    "lat": 33.254166,
+    "lng": -111.632637
   },
   {
     "id": 24,
@@ -380,24 +380,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 97,
-    "lat": 33.3202,
-    "lng": -111.6343
-  },
-  {
-    "id": 24,
-    "business": "Point 22 Tavern",
-    "city": "Mesa",
-    "category": "Food",
-    "deal": "Lunch Specials $12.99",
-    "days": "Monday-Friday",
-    "time": "11 AM-3 PM",
-    "terms": "BLT & fries, salad & soup, 5 wings & salad, 2 chicken tenders & fries, or ultimate grilled cheese",
-    "source": "Official Point 22 Tavern website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 97,
-    "lat": 33.3202,
-    "lng": -111.6343
+    "lat": 33.3045,
+    "lng": -111.6004
   },
   {
     "id": 25,
@@ -412,8 +396,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 95,
-    "lat": 33.3202,
-    "lng": -111.6343
+    "lat": 33.3045,
+    "lng": -111.6004
   },
   {
     "id": 26,
@@ -428,8 +412,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 98,
-    "lat": 33.3705,
-    "lng": -111.6877
+    "lat": 33.3374,
+    "lng": -111.6024
   },
   {
     "id": 27,
@@ -439,13 +423,13 @@
     "deal": "Happy Hour",
     "days": "Tuesday-Friday",
     "time": "2-6 PM",
-    "terms": "Current happy hour menu; all day Sunday & Monday",
+    "terms": "Happy hour menu; Tuesday–Friday 2–6 PM",
     "source": "Official Arizona Rebel Republic website",
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 94,
-    "lat": 33.3705,
-    "lng": -111.6877
+    "lat": 33.3374,
+    "lng": -111.6024
   },
   {
     "id": 28,
@@ -503,7 +487,7 @@
     "deal": "$5 Drafts",
     "days": "Thursday",
     "time": "All day",
-    "terms": "$5 drafts all day; margarita flight also available",
+    "terms": "$5 drafts all day Thursday; $10 margarita flight also available",
     "source": "Official Barrio Brewing Co. Mesa website",
     "verified": "2026-09-01",
     "confidence": "High",
@@ -556,8 +540,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 96,
-    "lat": 33.3705,
-    "lng": -111.6877
+    "lat": 33.3374,
+    "lng": -111.6024
   },
   {
     "id": 35,
@@ -572,8 +556,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 94,
-    "lat": 33.3705,
-    "lng": -111.6877
+    "lat": 33.3374,
+    "lng": -111.6024
   },
   {
     "id": 36,
@@ -588,40 +572,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 92,
-    "lat": 33.3705,
-    "lng": -111.6877
-  },
-  {
-    "id": 37,
-    "business": "Arizona Rebel Republic",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "Happy Hour",
-    "days": "Tuesday-Friday",
-    "time": "2-6 PM",
-    "terms": "Happy hour menu; all day Sunday & Monday",
-    "source": "Official Arizona Rebel Republic website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 99,
-    "lat": 33.3705,
-    "lng": -111.6877
-  },
-  {
-    "id": 38,
-    "business": "Barrio Brewing Co.",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$5 Drafts",
-    "days": "Thursday",
-    "time": "All day",
-    "terms": "All drafts $5; margarita flight $10",
-    "source": "Official Barrio Brewing Co. Mesa website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 99,
-    "lat": 33.3107,
-    "lng": -111.67
+    "lat": 33.3374,
+    "lng": -111.6024
   },
   {
     "id": 39,
@@ -667,7 +619,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 42,
@@ -681,7 +635,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 43,
@@ -695,7 +651,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 44,
@@ -709,7 +667,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 45,
@@ -723,7 +683,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 46,
@@ -737,7 +699,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 47,
@@ -751,7 +715,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 48,
@@ -765,7 +731,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 49,
@@ -779,7 +747,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 50,
@@ -793,7 +763,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 51,
@@ -807,7 +779,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 52,
@@ -821,7 +795,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 53,
@@ -835,7 +811,9 @@
     "source": "Official restaurant promotion",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.335363,
+    "lng": -111.602085
   },
   {
     "id": 54,
@@ -850,8 +828,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 96,
-    "lat": 33.459,
-    "lng": -111.698
+    "lat": 33.38118,
+    "lng": -111.754507
   },
   {
     "id": 55,
@@ -866,8 +844,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 95,
-    "lat": 33.459,
-    "lng": -111.698
+    "lat": 33.38118,
+    "lng": -111.754507
   },
   {
     "id": 56,
@@ -882,8 +860,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 94,
-    "lat": 33.459,
-    "lng": -111.698
+    "lat": 33.38118,
+    "lng": -111.754507
   },
   {
     "id": 57,
@@ -898,8 +876,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 93,
-    "lat": 33.459,
-    "lng": -111.698
+    "lat": 33.38118,
+    "lng": -111.754507
   },
   {
     "id": 58,
@@ -914,8 +892,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 97,
-    "lat": 33.459,
-    "lng": -111.698
+    "lat": 33.38118,
+    "lng": -111.754507
   },
   {
     "id": 59,
@@ -930,8 +908,8 @@
     "verified": "2026-09-01",
     "confidence": "High",
     "score": 96,
-    "lat": 33.459,
-    "lng": -111.698
+    "lat": 33.38118,
+    "lng": -111.754507
   },
   {
     "id": 60,
@@ -945,7 +923,9 @@
     "source": "Official Buck & Rider website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 61,
@@ -959,7 +939,9 @@
     "source": "Official Buck & Rider website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 62,
@@ -973,7 +955,9 @@
     "source": "Official Buck & Rider website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 63,
@@ -987,7 +971,9 @@
     "source": "Official Buck & Rider website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 64,
@@ -1001,7 +987,9 @@
     "source": "Official Buck & Rider website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 65,
@@ -1015,7 +1003,9 @@
     "source": "Official Buck & Rider website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 66,
@@ -1029,7 +1019,9 @@
     "source": "Current happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 67,
@@ -1043,7 +1035,9 @@
     "source": "Official Spinato's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 68,
@@ -1051,13 +1045,15 @@
     "city": "Gilbert",
     "category": "Drinks",
     "deal": "$1 Off Draft Beer",
-    "days": "Every Day",
+    "days": "Tuesday-Sunday",
     "time": "Open-6 PM",
     "terms": "Happy hour draft beer by the pint",
     "source": "Official Spinato's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 69,
@@ -1065,13 +1061,15 @@
     "city": "Gilbert",
     "category": "Drinks",
     "deal": "$2 Off Specialty Cocktails",
-    "days": "Every Day",
+    "days": "Tuesday-Sunday",
     "time": "Open-6 PM",
     "terms": "Happy hour specialty cocktails",
     "source": "Official Spinato's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 70,
@@ -1079,13 +1077,15 @@
     "city": "Gilbert",
     "category": "Drinks",
     "deal": "$6 House Wine",
-    "days": "Every Day",
+    "days": "Tuesday-Sunday",
     "time": "Open-6 PM",
     "terms": "Happy hour house wine by the glass",
     "source": "Official Spinato's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 71,
@@ -1093,13 +1093,15 @@
     "city": "Gilbert",
     "category": "Food",
     "deal": "$8 Personal Pizza",
-    "days": "Every Day",
+    "days": "Tuesday-Sunday",
     "time": "Open-6 PM",
     "terms": "8-inch one-topping personal pizza during happy hour",
     "source": "Official Spinato's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 72,
@@ -1107,13 +1109,15 @@
     "city": "Gilbert",
     "category": "Food",
     "deal": "$8 Boneless Wings",
-    "days": "Every Day",
+    "days": "Tuesday-Sunday",
     "time": "Open-6 PM",
     "terms": "Half order; choice of sauce during happy hour",
     "source": "Official Spinato's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 73,
@@ -1121,13 +1125,15 @@
     "city": "Gilbert",
     "category": "Food",
     "deal": "$6 Spaghetti",
-    "days": "Every Day",
+    "days": "Tuesday-Sunday",
     "time": "Open-6 PM",
     "terms": "Happy hour portion with marinara",
     "source": "Official Spinato's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 74,
@@ -1135,13 +1141,15 @@
     "city": "Gilbert",
     "category": "Food",
     "deal": "$3.50 Mini Cannoli",
-    "days": "Every Day",
+    "days": "Tuesday-Sunday",
     "time": "Open-6 PM",
     "terms": "One mini cannoli during happy hour",
     "source": "Official Spinato's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.32215,
+    "lng": -111.72414
   },
   {
     "id": 75,
@@ -1155,7 +1163,9 @@
     "source": "Current Crust Pizzeria menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 76,
@@ -1169,7 +1179,9 @@
     "source": "Current Crust Pizzeria menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 77,
@@ -1183,7 +1195,9 @@
     "source": "Current Crust Pizzeria menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 78,
@@ -1197,7 +1211,9 @@
     "source": "Current Crust Pizzeria menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 79,
@@ -1211,7 +1227,9 @@
     "source": "Current Crust Pizzeria menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 80,
@@ -1225,7 +1243,9 @@
     "source": "Current Gilbert happy-hour listing",
     "verified": "2026-09-01",
     "confidence": "Medium-High",
-    "score": 97
+    "score": 97,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 81,
@@ -1239,7 +1259,9 @@
     "source": "Official Crust website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 82,
@@ -1253,7 +1275,9 @@
     "source": "Current Gilbert happy-hour listing",
     "verified": "2026-09-01",
     "confidence": "Medium-High",
-    "score": 96
+    "score": 96,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 83,
@@ -1267,7 +1291,9 @@
     "source": "Current Gilbert happy-hour listing",
     "verified": "2026-09-01",
     "confidence": "Medium-High",
-    "score": 94
+    "score": 94,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 84,
@@ -1281,77 +1307,9 @@
     "source": "Official Crust website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
-  },
-  {
-    "id": 85,
-    "business": "BJ's Restaurant & Brewhouse",
-    "city": "Gilbert",
-    "category": "Drinks",
-    "deal": "Happy Hour",
-    "days": "Monday-Friday",
-    "time": "3-7 PM",
-    "terms": "Available in bar and patio areas",
-    "source": "Current BJ's happy hour information",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
-  },
-  {
-    "id": 86,
-    "business": "BJ's Restaurant & Brewhouse",
-    "city": "Gilbert",
-    "category": "Drinks",
-    "deal": "$4 Domestic Bottles",
-    "days": "Monday-Friday",
-    "time": "3-7 PM",
-    "terms": "Happy hour; bar and patio",
-    "source": "Current BJ's happy hour information",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 97
-  },
-  {
-    "id": 87,
-    "business": "BJ's Restaurant & Brewhouse",
-    "city": "Gilbert",
-    "category": "Drinks",
-    "deal": "$5 BJ's Handcrafted Beers",
-    "days": "Monday-Friday",
-    "time": "3-7 PM",
-    "terms": "Excludes seasonal and specialty beers",
-    "source": "Current BJ's happy hour information",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
-  },
-  {
-    "id": 88,
-    "business": "BJ's Restaurant & Brewhouse",
-    "city": "Gilbert",
-    "category": "Drinks",
-    "deal": "$6 Brewhouse Margaritas",
-    "days": "Monday-Friday",
-    "time": "3-7 PM",
-    "terms": "Happy hour",
-    "source": "Current BJ's happy hour information",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 96
-  },
-  {
-    "id": 89,
-    "business": "BJ's Restaurant & Brewhouse",
-    "city": "Gilbert",
-    "category": "Drinks",
-    "deal": "Late Night Happy Hour",
-    "days": "Sunday-Thursday",
-    "time": "9-11 PM",
-    "terms": "Available in bar and patio areas",
-    "source": "Current BJ's happy hour information",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 95
+    "score": 99,
+    "lat": 33.31571,
+    "lng": -111.76297
   },
   {
     "id": 90,
@@ -1365,7 +1323,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3049863,
+    "lng": -111.7864788
   },
   {
     "id": 91,
@@ -1379,7 +1339,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.3049863,
+    "lng": -111.7864788
   },
   {
     "id": 92,
@@ -1393,7 +1355,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.3049863,
+    "lng": -111.7864788
   },
   {
     "id": 93,
@@ -1407,7 +1371,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3049863,
+    "lng": -111.7864788
   },
   {
     "id": 94,
@@ -1421,7 +1387,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.3049863,
+    "lng": -111.7864788
   },
   {
     "id": 95,
@@ -1435,7 +1403,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.3049863,
+    "lng": -111.7864788
   },
   {
     "id": 96,
@@ -1449,7 +1419,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 97,
@@ -1463,7 +1435,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 98,
@@ -1477,7 +1451,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 99,
@@ -1491,7 +1467,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 100,
@@ -1505,7 +1483,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 101,
@@ -1519,7 +1499,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 102,
@@ -1533,7 +1515,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 103,
@@ -1547,7 +1531,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 104,
@@ -1561,7 +1547,9 @@
     "source": "Official Backyard Gilbert website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3062,
+    "lng": -111.7471
   },
   {
     "id": 105,
@@ -1575,7 +1563,9 @@
     "source": "Current Pour Wine & Taproom listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.36257,
+    "lng": -111.6353
   },
   {
     "id": 106,
@@ -1589,7 +1579,9 @@
     "source": "Current Pour Wine & Taproom listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.36257,
+    "lng": -111.6353
   },
   {
     "id": 107,
@@ -1603,7 +1595,9 @@
     "source": "Current Mesa happy-hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 108,
@@ -1617,7 +1611,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 109,
@@ -1631,7 +1627,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 110,
@@ -1645,7 +1643,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 111,
@@ -1659,7 +1659,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 112,
@@ -1673,7 +1675,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 113,
@@ -1687,7 +1691,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 114,
@@ -1701,7 +1707,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 115,
@@ -1715,7 +1723,9 @@
     "source": "Current Fat Willy's specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3786,
+    "lng": -111.606
   },
   {
     "id": 116,
@@ -1729,7 +1739,9 @@
     "source": "Official Beer Barn website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.32203,
+    "lng": -111.72348
   },
   {
     "id": 117,
@@ -1743,7 +1755,9 @@
     "source": "Current Beer Barn listing",
     "verified": "2026-09-01",
     "confidence": "Medium-High",
-    "score": 95
+    "score": 95,
+    "lat": 33.32203,
+    "lng": -111.72348
   },
   {
     "id": 118,
@@ -1753,11 +1767,13 @@
     "deal": "Happy Hour",
     "days": "Monday-Friday",
     "time": "2:12-6:12 PM",
-    "terms": "Sossaman location",
-    "source": "Current Hub happy hour listing",
+    "terms": "Sossaman location; Sossaman location; happy hour drink specials",
+    "source": "Current Hub happy hour listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 119,
@@ -1768,10 +1784,12 @@
     "days": "Monday-Friday",
     "time": "2:12-6:12 PM",
     "terms": "Happy hour; Sossaman location",
-    "source": "Current Hub happy hour listing",
+    "source": "Current Hub happy hour listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 120,
@@ -1785,7 +1803,9 @@
     "source": "Current Hub happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 121,
@@ -1796,10 +1816,12 @@
     "days": "Monday-Friday",
     "time": "2:12-6:12 PM",
     "terms": "Happy hour; Sossaman location",
-    "source": "Current Hub happy hour listing",
+    "source": "Current Hub happy hour listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 122,
@@ -1810,10 +1832,12 @@
     "days": "Monday-Friday",
     "time": "2:12-6:12 PM",
     "terms": "Happy hour; Sossaman location",
-    "source": "Current Hub happy hour listing",
+    "source": "Current Hub happy hour listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 123,
@@ -1824,10 +1848,12 @@
     "days": "Monday-Friday",
     "time": "2:12-6:12 PM",
     "terms": "Happy hour; Sossaman location",
-    "source": "Current Hub happy hour listing",
+    "source": "Current Hub happy hour listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 124,
@@ -1837,11 +1863,13 @@
     "deal": "$2 Off Appetizers",
     "days": "Monday-Friday",
     "time": "2:12-6:12 PM",
-    "terms": "Excludes wings; happy hour",
-    "source": "Current Hub happy hour listing",
+    "terms": "Excludes wings; happy hour; Excludes wings; happy hour appetizer special",
+    "source": "Current Hub happy hour listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 125,
@@ -1855,7 +1883,9 @@
     "source": "Current Hub specials listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 126,
@@ -1869,7 +1899,9 @@
     "source": "Current Hub specials listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 127,
@@ -1883,7 +1915,9 @@
     "source": "Current Hub specials listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 128,
@@ -1893,11 +1927,13 @@
     "deal": "$1 Off Craft Pints + $2.12 Off Pizza",
     "days": "Wednesday",
     "time": "All day",
-    "terms": "Daily specials",
-    "source": "Current Hub specials listing",
+    "terms": "Daily specials; Wednesday special; Sossaman location",
+    "source": "Current Hub specials listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 129,
@@ -1907,11 +1943,13 @@
     "deal": "$15.99 Fish & Chips",
     "days": "Thursday-Friday",
     "time": "All day",
-    "terms": "Daily special",
-    "source": "Current Hub specials listing",
+    "terms": "Daily special; Daily special; Sossaman location",
+    "source": "Current Hub specials listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 130,
@@ -1925,7 +1963,9 @@
     "source": "Current Hub specials listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 131,
@@ -1935,11 +1975,13 @@
     "deal": "$5 Wells, Bloody Marys & Mimosas",
     "days": "Sunday",
     "time": "All day",
-    "terms": "Sunday special",
-    "source": "Current Hub specials listing",
+    "terms": "Sunday special; Sunday drink special; Sossaman location",
+    "source": "Current Hub specials listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 132,
@@ -1949,11 +1991,13 @@
     "deal": "$5 Domestic Pints",
     "days": "Sunday",
     "time": "All day",
-    "terms": "Sunday special",
-    "source": "Current Hub specials listing",
+    "terms": "Sunday special; Sunday drink special; Sossaman location",
+    "source": "Current Hub specials listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 133,
@@ -1963,11 +2007,13 @@
     "deal": "$20 Domestic Buckets",
     "days": "Sunday",
     "time": "All day",
-    "terms": "Six domestic beers",
-    "source": "Current Hub specials listing",
+    "terms": "Six domestic beers; Six domestic beers; Sunday special",
+    "source": "Current Hub specials listing; Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 134,
@@ -1981,7 +2027,9 @@
     "source": "Official Cogburn's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3158,
+    "lng": -111.6867
   },
   {
     "id": 135,
@@ -1995,7 +2043,9 @@
     "source": "Current Cogburn's specials",
     "verified": "2026-09-01",
     "confidence": "Medium-High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3158,
+    "lng": -111.6867
   },
   {
     "id": 136,
@@ -2009,7 +2059,9 @@
     "source": "Current Cogburn's specials",
     "verified": "2026-09-01",
     "confidence": "Medium-High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3158,
+    "lng": -111.6867
   },
   {
     "id": 137,
@@ -2023,7 +2075,9 @@
     "source": "Current Cogburn's specials",
     "verified": "2026-09-01",
     "confidence": "Medium-High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3158,
+    "lng": -111.6867
   },
   {
     "id": 138,
@@ -2033,11 +2087,13 @@
     "deal": "Happy Hour",
     "days": "Monday-Thursday",
     "time": "2-6 PM",
-    "terms": "Power Road location",
+    "terms": "Power Road location; Queen Creek location at 7215 S Power Rd",
     "source": "Official Sage & Barrel website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 139,
@@ -2047,11 +2103,13 @@
     "deal": "Happy Hour",
     "days": "Friday-Saturday",
     "time": "2-5 PM",
-    "terms": "Power Road location",
+    "terms": "Power Road location; Queen Creek location",
     "source": "Official Sage & Barrel website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 140,
@@ -2065,7 +2123,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 141,
@@ -2079,7 +2139,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 142,
@@ -2093,7 +2155,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 143,
@@ -2107,7 +2171,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 144,
@@ -2121,7 +2187,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 145,
@@ -2135,7 +2203,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 146,
@@ -2149,7 +2219,9 @@
     "source": "Current Scratch Pub & Grill menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3505,
+    "lng": -111.6045
   },
   {
     "id": 147,
@@ -2163,7 +2235,9 @@
     "source": "Current Scratch Pub & Grill menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.3505,
+    "lng": -111.6045
   },
   {
     "id": 148,
@@ -2177,7 +2251,9 @@
     "source": "Current Scratch Pub & Grill menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.3505,
+    "lng": -111.6045
   },
   {
     "id": 149,
@@ -2191,7 +2267,9 @@
     "source": "Current Scratch Pub & Grill menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 93
+    "score": 93,
+    "lat": 33.3505,
+    "lng": -111.6045
   },
   {
     "id": 150,
@@ -2205,7 +2283,9 @@
     "source": "Augusta Ranch Golf Club / Scratch Pub & Grill",
     "verified": "2026-09-01",
     "confidence": "Medium-High",
-    "score": 91
+    "score": 91,
+    "lat": 33.3505,
+    "lng": -111.6045
   },
   {
     "id": 151,
@@ -2219,7 +2299,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 152,
@@ -2233,7 +2315,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 153,
@@ -2247,7 +2331,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 154,
@@ -2261,7 +2347,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 92
+    "score": 92,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 155,
@@ -2275,7 +2363,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 156,
@@ -2289,7 +2379,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 157,
@@ -2303,7 +2395,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 93
+    "score": 93,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 158,
@@ -2317,7 +2411,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 159,
@@ -2331,7 +2427,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 160,
@@ -2345,7 +2443,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 92
+    "score": 92,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 161,
@@ -2359,7 +2459,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 162,
@@ -2373,7 +2475,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 163,
@@ -2387,7 +2491,9 @@
     "source": "Official R.T. O'Sullivan's Mesa specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.3834,
+    "lng": -111.68849
   },
   {
     "id": 164,
@@ -2401,7 +2507,9 @@
     "source": "Official Uncle Bear's website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.378023,
+    "lng": -111.638654
   },
   {
     "id": 165,
@@ -2415,7 +2523,9 @@
     "source": "Current Mesa Baseline happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.378023,
+    "lng": -111.638654
   },
   {
     "id": 166,
@@ -2429,7 +2539,9 @@
     "source": "Current Mesa Baseline happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.378023,
+    "lng": -111.638654
   },
   {
     "id": 167,
@@ -2443,35 +2555,9 @@
     "source": "Current Mesa Baseline happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
-  },
-  {
-    "id": 168,
-    "business": "The Brass Tap",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "Happy Hour",
-    "days": "Monday-Friday",
-    "time": "3-6 PM",
-    "terms": "Happy hour drink specials; participating Mesa location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "Medium",
-    "score": 88
-  },
-  {
-    "id": 169,
-    "business": "The Brass Tap",
-    "city": "Mesa",
-    "category": "Food",
-    "deal": "Happy Hour Food Specials",
-    "days": "Monday-Friday",
-    "time": "3-6 PM",
-    "terms": "Select food and appetizer specials during happy hour",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "Medium",
-    "score": 87
+    "score": 99,
+    "lat": 33.378023,
+    "lng": -111.638654
   },
   {
     "id": 170,
@@ -2485,7 +2571,9 @@
     "source": "Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "Medium",
-    "score": 88
+    "score": 88,
+    "lat": 33.3562,
+    "lng": -111.789
   },
   {
     "id": 171,
@@ -2499,7 +2587,9 @@
     "source": "Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "Medium",
-    "score": 87
+    "score": 87,
+    "lat": 33.3562,
+    "lng": -111.789
   },
   {
     "id": 172,
@@ -2507,13 +2597,15 @@
     "city": "Gilbert",
     "category": "Drinks",
     "deal": "Happy Hour",
-    "days": "Monday-Friday",
-    "time": "3-6 PM",
-    "terms": "Happy hour drink specials; Gilbert location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
+    "days": "Wednesday-Friday",
+    "time": "All day",
+    "terms": "Happy hour; official Gilbert location page currently advertises Wednesday-Friday all day",
+    "source": "Official restaurant website: https://porchrestaurants.com/gilbert/",
+    "verified": "2026-10-19",
     "confidence": "Medium",
-    "score": 87
+    "score": 87,
+    "lat": 33.3554,
+    "lng": -111.7898
   },
   {
     "id": 173,
@@ -2521,41 +2613,15 @@
     "city": "Gilbert",
     "category": "Food",
     "deal": "Happy Hour Food Specials",
-    "days": "Monday-Friday",
-    "time": "3-6 PM",
-    "terms": "Select food and appetizer specials during happy hour",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
+    "days": "Wednesday-Friday",
+    "time": "All day",
+    "terms": "Food and appetizer specials; official Gilbert location page currently advertises daily specials Wednesday-Friday all day",
+    "source": "Official restaurant website: https://porchrestaurants.com/gilbert/",
+    "verified": "2026-10-19",
     "confidence": "Medium",
-    "score": 86
-  },
-  {
-    "id": 174,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "Happy Hour",
-    "days": "Monday-Friday",
-    "time": "2:12-6:12 PM",
-    "terms": "Sossaman location; happy hour drink specials",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
-  },
-  {
-    "id": 175,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$5 Well Drinks",
-    "days": "Monday-Friday",
-    "time": "2:12-6:12 PM",
-    "terms": "Happy hour; Sossaman location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 99
+    "score": 86,
+    "lat": 33.3554,
+    "lng": -111.7898
   },
   {
     "id": 176,
@@ -2569,63 +2635,9 @@
     "source": "Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
-  },
-  {
-    "id": 177,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$5 House Wine",
-    "days": "Monday-Friday",
-    "time": "2:12-6:12 PM",
-    "terms": "Happy hour; Sossaman location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
-  },
-  {
-    "id": 178,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$6 Call Drinks",
-    "days": "Monday-Friday",
-    "time": "2:12-6:12 PM",
-    "terms": "Happy hour; Sossaman location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 97
-  },
-  {
-    "id": 179,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$6 22oz Domestic Drafts",
-    "days": "Monday-Friday",
-    "time": "2:12-6:12 PM",
-    "terms": "Happy hour; Sossaman location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 97
-  },
-  {
-    "id": 180,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Food",
-    "deal": "$2 Off Appetizers",
-    "days": "Monday-Friday",
-    "time": "2:12-6:12 PM",
-    "terms": "Excludes wings; happy hour appetizer special",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 97
+    "score": 99,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 181,
@@ -2639,7 +2651,9 @@
     "source": "Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 182,
@@ -2653,119 +2667,9 @@
     "source": "Current restaurant listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
-  },
-  {
-    "id": 183,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Food",
-    "deal": "$1 Off Craft Pints + $2.12 Off Pizza",
-    "days": "Wednesday",
-    "time": "All day",
-    "terms": "Wednesday special; Sossaman location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 96
-  },
-  {
-    "id": 184,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Food",
-    "deal": "$15.99 Fish & Chips",
-    "days": "Thursday-Friday",
-    "time": "All day",
-    "terms": "Daily special; Sossaman location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 97
-  },
-  {
-    "id": 185,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$5 Wells, Bloody Marys & Mimosas",
-    "days": "Sunday",
-    "time": "All day",
-    "terms": "Sunday drink special; Sossaman location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
-  },
-  {
-    "id": 186,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$5 Domestic Pints",
-    "days": "Sunday",
-    "time": "All day",
-    "terms": "Sunday drink special; Sossaman location",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
-  },
-  {
-    "id": 187,
-    "business": "The Hub Grill & Bar",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$20 Domestic Buckets",
-    "days": "Sunday",
-    "time": "All day",
-    "terms": "Six domestic beers; Sunday special",
-    "source": "Current restaurant listing",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 97
-  },
-  {
-    "id": 188,
-    "business": "Narwhal's Crafted",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "Happy Hour",
-    "days": "Monday-Friday",
-    "time": "3-6 PM",
-    "terms": "$2 off regular-price frozen cocktails and $1 off draft beers",
-    "source": "Official Narwhal's website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 99
-  },
-  {
-    "id": 189,
-    "business": "Narwhal's Crafted",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$12 Flight of the Narwhal",
-    "days": "Wednesday",
-    "time": "3-6 PM",
-    "terms": "Wednesday happy hour special",
-    "source": "Official Narwhal's website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
-  },
-  {
-    "id": 190,
-    "business": "Narwhal's Crafted",
-    "city": "Mesa",
-    "category": "Drinks",
-    "deal": "$5 Off 40oz Fishbowls",
-    "days": "Friday",
-    "time": "3-6 PM",
-    "terms": "Fishbowl Friday; includes refills",
-    "source": "Official Narwhal's website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 100
+    "score": 95,
+    "lat": 33.380494,
+    "lng": -111.666305
   },
   {
     "id": 191,
@@ -2779,35 +2683,9 @@
     "source": "Current UnderTow information",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
-  },
-  {
-    "id": 192,
-    "business": "Sage & Barrel Craft Eatery",
-    "city": "Queen Creek",
-    "category": "Drinks",
-    "deal": "Happy Hour",
-    "days": "Monday-Thursday",
-    "time": "2-6 PM",
-    "terms": "Queen Creek location at 7215 S Power Rd",
-    "source": "Official Sage & Barrel website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 99
-  },
-  {
-    "id": 193,
-    "business": "Sage & Barrel Craft Eatery",
-    "city": "Queen Creek",
-    "category": "Drinks",
-    "deal": "Happy Hour",
-    "days": "Friday-Saturday",
-    "time": "2-5 PM",
-    "terms": "Queen Creek location",
-    "source": "Official Sage & Barrel website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.319,
+    "lng": -111.723
   },
   {
     "id": 194,
@@ -2821,7 +2699,9 @@
     "source": "Official Sage & Barrel website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 195,
@@ -2835,7 +2715,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 196,
@@ -2849,7 +2731,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 197,
@@ -2863,7 +2747,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 198,
@@ -2877,7 +2763,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 199,
@@ -2891,7 +2779,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 200,
@@ -2905,7 +2795,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 201,
@@ -2919,7 +2811,9 @@
     "source": "Current Sage & Barrel happy hour listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.2247,
+    "lng": -111.6856
   },
   {
     "id": 202,
@@ -2933,7 +2827,9 @@
     "source": "Current Milano's Mesa listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.451334,
+    "lng": -111.732263
   },
   {
     "id": 203,
@@ -2947,7 +2843,9 @@
     "source": "Current Milano's Mesa listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.451334,
+    "lng": -111.732263
   },
   {
     "id": 204,
@@ -2961,7 +2859,9 @@
     "source": "Current Milano's Mesa listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.451334,
+    "lng": -111.732263
   },
   {
     "id": 205,
@@ -2975,7 +2875,9 @@
     "source": "Current Milano's Mesa listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.451334,
+    "lng": -111.732263
   },
   {
     "id": 206,
@@ -2989,7 +2891,9 @@
     "source": "Current Milano's Mesa listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.451334,
+    "lng": -111.732263
   },
   {
     "id": 207,
@@ -3003,7 +2907,9 @@
     "source": "Current Milano's Mesa weekly specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.451334,
+    "lng": -111.732263
   },
   {
     "id": 208,
@@ -3017,7 +2923,9 @@
     "source": "Current Milano's Mesa weekly specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.451334,
+    "lng": -111.732263
   },
   {
     "id": 209,
@@ -3031,7 +2939,9 @@
     "source": "Current Milano's Mesa weekly specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.451334,
+    "lng": -111.732263
   },
   {
     "id": 210,
@@ -3045,7 +2955,9 @@
     "source": "Current local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.4664,
+    "lng": -111.6918
   },
   {
     "id": 211,
@@ -3059,7 +2971,9 @@
     "source": "Current local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.4664,
+    "lng": -111.6918
   },
   {
     "id": 212,
@@ -3073,7 +2987,9 @@
     "source": "Current local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.4664,
+    "lng": -111.6918
   },
   {
     "id": 213,
@@ -3087,7 +3003,9 @@
     "source": "Current local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.4664,
+    "lng": -111.6918
   },
   {
     "id": 214,
@@ -3101,7 +3019,9 @@
     "source": "Current local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.4664,
+    "lng": -111.6918
   },
   {
     "id": 215,
@@ -3115,7 +3035,9 @@
     "source": "Current local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.4664,
+    "lng": -111.6918
   },
   {
     "id": 216,
@@ -3129,7 +3051,9 @@
     "source": "Current local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.4664,
+    "lng": -111.6918
   },
   {
     "id": 217,
@@ -3143,35 +3067,9 @@
     "source": "Current local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
-  },
-  {
-    "id": 218,
-    "business": "Queen Creek Olive Mill",
-    "city": "Queen Creek",
-    "category": "Drinks",
-    "deal": "Chill at the Mill Happy Hour",
-    "days": "Sunday-Wednesday",
-    "time": "3-5 PM",
-    "terms": "Seasonal happy hour at the Del Piero Bar; through September 7, 2026",
-    "source": "Visit Queen Creek",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 100
-  },
-  {
-    "id": 219,
-    "business": "Queen Creek Olive Mill",
-    "city": "Queen Creek",
-    "category": "Drinks",
-    "deal": "Chill at the Mill Happy Hour",
-    "days": "Thursday-Saturday",
-    "time": "3-6 PM",
-    "terms": "Seasonal happy hour at the Del Piero Bar; through September 7, 2026",
-    "source": "Visit Queen Creek",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 100
+    "score": 99,
+    "lat": 33.4664,
+    "lng": -111.6918
   },
   {
     "id": 220,
@@ -3185,7 +3083,9 @@
     "source": "Current Queen Creek Olive Mill happy hour",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.2206,
+    "lng": -111.6343
   },
   {
     "id": 221,
@@ -3199,7 +3099,9 @@
     "source": "Current Queen Creek Olive Mill happy hour",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.2206,
+    "lng": -111.6343
   },
   {
     "id": 222,
@@ -3213,7 +3115,9 @@
     "source": "Current Queen Creek Olive Mill happy hour",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.2206,
+    "lng": -111.6343
   },
   {
     "id": 223,
@@ -3227,7 +3131,9 @@
     "source": "Current Origen Gilbert listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.306263,
+    "lng": -111.704708
   },
   {
     "id": 224,
@@ -3241,7 +3147,9 @@
     "source": "Current Origen Gilbert listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.306263,
+    "lng": -111.704708
   },
   {
     "id": 225,
@@ -3255,7 +3163,9 @@
     "source": "Current Origen Gilbert listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.306263,
+    "lng": -111.704708
   },
   {
     "id": 226,
@@ -3269,7 +3179,9 @@
     "source": "Current Origen Gilbert listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.306263,
+    "lng": -111.704708
   },
   {
     "id": 227,
@@ -3283,7 +3195,9 @@
     "source": "Current Origen Gilbert listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.306263,
+    "lng": -111.704708
   },
   {
     "id": 228,
@@ -3297,7 +3211,9 @@
     "source": "Current Origen Gilbert listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.306263,
+    "lng": -111.704708
   },
   {
     "id": 229,
@@ -3311,7 +3227,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.36301,
+    "lng": -111.841036
   },
   {
     "id": 230,
@@ -3325,7 +3243,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.36301,
+    "lng": -111.841036
   },
   {
     "id": 231,
@@ -3339,7 +3259,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.36301,
+    "lng": -111.841036
   },
   {
     "id": 232,
@@ -3353,7 +3275,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.36301,
+    "lng": -111.841036
   },
   {
     "id": 233,
@@ -3367,7 +3291,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.36301,
+    "lng": -111.841036
   },
   {
     "id": 234,
@@ -3381,21 +3307,9 @@
     "source": "Discover Gilbert / current Queen Creek listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
-  },
-  {
-    "id": 235,
-    "business": "Queen Creek Public House",
-    "city": "Queen Creek",
-    "category": "Food",
-    "deal": "New Local Gastropub",
-    "days": "Monday-Friday",
-    "time": "11 AM-Midnight",
-    "terms": "New Queen Creek gastropub at Ellsworth & Ocotillo; burgers, wings, sandwiches and entrees",
-    "source": "Current Queen Creek local reporting",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 96
+    "score": 100,
+    "lat": 33.2563,
+    "lng": -111.641
   },
   {
     "id": 236,
@@ -3409,7 +3323,9 @@
     "source": "Current Queen Creek local reporting",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.248225,
+    "lng": -111.634887
   },
   {
     "id": 237,
@@ -3423,7 +3339,9 @@
     "source": "Current Sacred Pint listing",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.2479858,
+    "lng": -111.6346436
   },
   {
     "id": 238,
@@ -3437,7 +3355,9 @@
     "source": "Official Switch Brews website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.2522011,
+    "lng": -111.6330032
   },
   {
     "id": 239,
@@ -3451,7 +3371,9 @@
     "source": "Official Switch Brews website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.2522011,
+    "lng": -111.6330032
   },
   {
     "id": 240,
@@ -3465,21 +3387,9 @@
     "source": "Official Switch Brews event calendar",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 94
-  },
-  {
-    "id": 241,
-    "business": "WoodBarn BBQ",
-    "city": "Queen Creek",
-    "category": "Food",
-    "deal": "Local BBQ",
-    "days": "Monday-Sunday",
-    "time": "11 AM-7 PM",
-    "terms": "Family-owned BBQ restaurant at 23670 S Power Rd Ste 101",
-    "source": "Official WoodBarn BBQ website",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 95
+    "score": 94,
+    "lat": 33.2522011,
+    "lng": -111.6330032
   },
   {
     "id": 242,
@@ -3493,7 +3403,9 @@
     "source": "Official BruCo Taproom website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.27985,
+    "lng": -111.6857
   },
   {
     "id": 243,
@@ -3507,7 +3419,9 @@
     "source": "Official BruCo Taproom website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.27985,
+    "lng": -111.6857
   },
   {
     "id": 244,
@@ -3516,12 +3430,14 @@
     "category": "Drinks",
     "deal": "Happy Hour",
     "days": "Monday-Friday",
-    "time": "2:12-6:12 PM",
-    "terms": "Gilbert location; 1686 N Higley Rd Suite 101",
-    "source": "Official Union Grill & Tap website",
-    "verified": "2026-09-01",
+    "time": "2:12 PM-6:12 PM",
+    "terms": "Gilbert location; official site lists weekday happy hour 2:12-6:12 PM",
+    "source": "Official restaurant website: https://www.uniongrilltap.com/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 245,
@@ -3535,7 +3451,9 @@
     "source": "Official Union Grill & Tap website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 246,
@@ -3549,7 +3467,9 @@
     "source": "Official Union Grill & Tap website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 247,
@@ -3563,7 +3483,9 @@
     "source": "Official Union Grill & Tap website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 248,
@@ -3577,7 +3499,9 @@
     "source": "Official Union Grill & Tap website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 249,
@@ -3591,7 +3515,9 @@
     "source": "Official Union Grill & Tap website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 250,
@@ -3605,7 +3531,9 @@
     "source": "Official Union Grill & Tap website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 251,
@@ -3619,7 +3547,9 @@
     "source": "Official Union Grill & Tap website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 252,
@@ -3633,7 +3563,9 @@
     "source": "Official Union Grill & Tap website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3813,
+    "lng": -111.7237
   },
   {
     "id": 253,
@@ -3647,7 +3579,9 @@
     "source": "Official Fogo de Chão announcement",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 254,
@@ -3661,7 +3595,9 @@
     "source": "Official Fogo de Chão announcement",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 255,
@@ -3675,7 +3611,9 @@
     "source": "Official Fogo de Chão announcement",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 256,
@@ -3689,7 +3627,9 @@
     "source": "Official Fogo de Chão announcement",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 257,
@@ -3703,7 +3643,9 @@
     "source": "Official Fogo de Chão announcement",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 258,
@@ -3717,7 +3659,9 @@
     "source": "Official Fogo de Chão announcement",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 259,
@@ -3731,7 +3675,9 @@
     "source": "Official Thirsty Lion website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 260,
@@ -3739,13 +3685,15 @@
     "city": "Gilbert",
     "category": "Drinks",
     "deal": "Late Night Happy Hour",
-    "days": "Friday-Saturday",
+    "days": "Thursday-Saturday",
     "time": "9 PM-Close",
     "terms": "Premium drinks from $8.95",
     "source": "Official Thirsty Lion / SanTan Village",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 261,
@@ -3753,13 +3701,15 @@
     "city": "Gilbert",
     "category": "Food",
     "deal": "Late Night Appetizers From $7.95",
-    "days": "Friday-Saturday",
+    "days": "Thursday-Saturday",
     "time": "9 PM-Close",
-    "terms": "Late night happy hour",
+    "terms": "Late-night happy-hour appetizers starting at $7.95; not all appetizers are $7.95",
     "source": "Official Thirsty Lion / SanTan Village",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 262,
@@ -3773,7 +3723,9 @@
     "source": "Official Thirsty Lion website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 263,
@@ -3787,7 +3739,9 @@
     "source": "Official Thirsty Lion website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 264,
@@ -3801,7 +3755,9 @@
     "source": "Official SALT Tacos y Tequila menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.306927,
+    "lng": -111.752619
   },
   {
     "id": 265,
@@ -3815,7 +3771,9 @@
     "source": "Official SALT Tacos y Tequila menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.306927,
+    "lng": -111.752619
   },
   {
     "id": 266,
@@ -3829,21 +3787,25 @@
     "source": "Official SALT Tacos y Tequila menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.306927,
+    "lng": -111.752619
   },
   {
     "id": 267,
     "business": "SALT Tacos y Tequila",
     "city": "Gilbert",
     "category": "Food",
-    "deal": "$7 Taquitos",
+    "deal": "$6 Taquitos",
     "days": "Monday-Friday",
     "time": "2-6 PM",
     "terms": "Happy hour",
     "source": "Official SALT Tacos y Tequila menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.306927,
+    "lng": -111.752619
   },
   {
     "id": 268,
@@ -3857,7 +3819,9 @@
     "source": "Official SALT Tacos y Tequila menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.306927,
+    "lng": -111.752619
   },
   {
     "id": 269,
@@ -3871,7 +3835,9 @@
     "source": "Official SALT Tacos y Tequila specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.306927,
+    "lng": -111.752619
   },
   {
     "id": 270,
@@ -3885,7 +3851,9 @@
     "source": "Official SALT Tacos y Tequila specials",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.306927,
+    "lng": -111.752619
   },
   {
     "id": 271,
@@ -3893,13 +3861,15 @@
     "city": "Gilbert",
     "category": "Drinks",
     "deal": "Happy Hour",
-    "days": "Tuesday-Saturday",
+    "days": "Monday-Saturday",
     "time": "4-6 PM",
     "terms": "SanTan Village; special pricing on martinis, beer and wine",
     "source": "SanTan Village official directory",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3079165,
+    "lng": -111.744186
   },
   {
     "id": 272,
@@ -3907,13 +3877,15 @@
     "city": "Gilbert",
     "category": "Food",
     "deal": "Happy Hour Sushi & Appetizers",
-    "days": "Tuesday-Saturday",
+    "days": "Monday-Saturday",
     "time": "4-6 PM",
     "terms": "Special pricing on sushi rolls and appetizers",
     "source": "SanTan Village official directory",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3079165,
+    "lng": -111.744186
   },
   {
     "id": 273,
@@ -3927,7 +3899,9 @@
     "source": "Official Bourbon & Bones website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 274,
@@ -3941,7 +3915,9 @@
     "source": "Official Bourbon & Bones happy hour menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 275,
@@ -3955,7 +3931,9 @@
     "source": "Official Bourbon & Bones happy hour menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 276,
@@ -3969,7 +3947,9 @@
     "source": "Official Bourbon & Bones happy hour menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 277,
@@ -3983,7 +3963,9 @@
     "source": "Official Bourbon & Bones happy hour menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 278,
@@ -3997,7 +3979,9 @@
     "source": "Official Bourbon & Bones happy hour menu",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3088,
+    "lng": -111.7427
   },
   {
     "id": 279,
@@ -4006,12 +3990,14 @@
     "category": "Drinks",
     "deal": "Happy Hour",
     "days": "Daily",
-    "time": "Open-6 PM",
-    "terms": "Heritage District location; happy hour",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "time": "Open-6:00 PM",
+    "terms": "Heritage District location; happy hour daily from open until 6 PM",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.35595,
+    "lng": -111.78975
   },
   {
     "id": 280,
@@ -4019,13 +4005,15 @@
     "city": "Gilbert",
     "category": "Events",
     "deal": "It Takes Two Dinner & Drinks",
-    "days": "Tuesday & Wednesday",
-    "time": "Dinner",
-    "terms": "Weekly dinner and drinks special",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "days": "Tuesday-Wednesday",
+    "time": "Dinner service",
+    "terms": "Weekly It Takes Two dinner and drinks offer; Discover Gilbert currently lists Tuesday and Wednesday",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.35595,
+    "lng": -111.78975
   },
   {
     "id": 281,
@@ -4034,12 +4022,14 @@
     "category": "Drinks",
     "deal": "Happy Hour",
     "days": "Monday-Friday",
-    "time": "2-6 PM",
-    "terms": "Heritage District location",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "time": "2:00 PM-6:00 PM",
+    "terms": "Gilbert Heritage District location; weekday happy hour",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3552,
+    "lng": -111.79
   },
   {
     "id": 282,
@@ -4048,12 +4038,14 @@
     "category": "Food",
     "deal": "Taco Tuesday",
     "days": "Tuesday",
-    "time": "2 PM-Close",
-    "terms": "Tuesday taco specials",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "time": "2:00 PM-close",
+    "terms": "Taco Tuesday special; verify item pricing with the location",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3552,
+    "lng": -111.79
   },
   {
     "id": 283,
@@ -4062,26 +4054,14 @@
     "category": "Drinks",
     "deal": "$5 Margaritas, Beer, Wine & Ranch Water",
     "days": "Daily",
-    "time": "Until 5 PM",
-    "terms": "$5 drink specials",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "time": "Until 5:00 PM",
+    "terms": "$5 margaritas, beer, wine and ranch waters; listed as '$5 'til 5'",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 100
-  },
-  {
-    "id": 284,
-    "business": "Lo-Lo's Chicken & Waffles",
-    "city": "Gilbert",
-    "category": "Drinks",
-    "deal": "Happy Hour",
-    "days": "Monday-Friday",
-    "time": "3-6 PM",
-    "terms": "Heritage District location",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
-    "confidence": "High",
-    "score": 98
+    "score": 100,
+    "lat": 33.3552,
+    "lng": -111.79
   },
   {
     "id": 285,
@@ -4095,7 +4075,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.35605,
+    "lng": -111.7899
   },
   {
     "id": 286,
@@ -4109,7 +4091,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.356514,
+    "lng": -111.7900614
   },
   {
     "id": 287,
@@ -4123,7 +4107,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.356514,
+    "lng": -111.7900614
   },
   {
     "id": 288,
@@ -4137,7 +4123,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.356514,
+    "lng": -111.7900614
   },
   {
     "id": 289,
@@ -4145,13 +4133,15 @@
     "city": "Gilbert",
     "category": "Drinks",
     "deal": "Happy Hour",
-    "days": "Monday-Friday",
+    "days": "Tuesday-Friday",
     "time": "4-6 PM",
     "terms": "Heritage District location",
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3556168,
+    "lng": -111.7894578
   },
   {
     "id": 290,
@@ -4165,7 +4155,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.3556168,
+    "lng": -111.7894578
   },
   {
     "id": 291,
@@ -4174,12 +4166,14 @@
     "category": "Drinks",
     "deal": "Happy Hour",
     "days": "Daily",
-    "time": "3-6:30 PM",
-    "terms": "Heritage District location",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "time": "3:00 PM-6:30 PM",
+    "terms": "Gilbert Heritage District location; daily happy hour",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.356,
+    "lng": -111.7898
   },
   {
     "id": 292,
@@ -4187,13 +4181,15 @@
     "city": "Gilbert",
     "category": "Drinks",
     "deal": "Reverse Happy Hour",
-    "days": "Monday-Saturday",
-    "time": "10 PM-Close",
-    "terms": "Late-night happy hour",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "days": "Monday-Thursday",
+    "time": "10:00 PM-close",
+    "terms": "Reverse happy hour; daily late-night offer Monday-Thursday; Friday-Saturday tracked separately",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.356,
+    "lng": -111.7898
   },
   {
     "id": 293,
@@ -4207,7 +4203,9 @@
     "source": "Discover Gilbert",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.35581,
+    "lng": -111.78933
   },
   {
     "id": 294,
@@ -4216,12 +4214,14 @@
     "category": "Drinks",
     "deal": "Happy Hour",
     "days": "Daily",
-    "time": "5-7 PM",
-    "terms": "Heritage District cocktail bar",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "time": "5:00 PM-7:00 PM",
+    "terms": "Heritage District cocktail bar; daily happy hour",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.356,
+    "lng": -111.7899
   },
   {
     "id": 295,
@@ -4230,12 +4230,14 @@
     "category": "Drinks",
     "deal": "Happy Hour",
     "days": "Monday-Friday",
-    "time": "3-6 PM",
-    "terms": "Heritage District location",
-    "source": "Discover Gilbert",
-    "verified": "2026-09-01",
+    "time": "3:00 PM-6:00 PM",
+    "terms": "Gilbert Heritage District location; weekday happy hour",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3562,
+    "lng": -111.7901
   },
   {
     "id": 296,
@@ -4249,7 +4251,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 297,
@@ -4263,7 +4267,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 298,
@@ -4277,7 +4283,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 299,
@@ -4291,7 +4299,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 300,
@@ -4305,7 +4315,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 301,
@@ -4319,7 +4331,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 302,
@@ -4333,7 +4347,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 303,
@@ -4347,7 +4363,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 96
+    "score": 96,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 304,
@@ -4361,7 +4379,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 305,
@@ -4375,7 +4395,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 306,
@@ -4389,7 +4411,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.46682,
+    "lng": -111.685036
   },
   {
     "id": 307,
@@ -4403,7 +4427,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 308,
@@ -4417,7 +4443,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 309,
@@ -4431,7 +4459,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 310,
@@ -4445,7 +4475,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 311,
@@ -4459,7 +4491,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 312,
@@ -4473,7 +4507,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 313,
@@ -4487,7 +4523,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 98
+    "score": 98,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 314,
@@ -4501,7 +4539,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 315,
@@ -4515,7 +4555,9 @@
     "source": "Visit Mesa",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 97
+    "score": 97,
+    "lat": 33.3559,
+    "lng": -111.7557
   },
   {
     "id": 316,
@@ -4529,7 +4571,9 @@
     "source": "Official Air Guitar website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.321892,
+    "lng": -111.726331
   },
   {
     "id": 317,
@@ -4543,7 +4587,9 @@
     "source": "Official Air Guitar website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.321892,
+    "lng": -111.726331
   },
   {
     "id": 318,
@@ -4557,7 +4603,9 @@
     "source": "Official Air Guitar website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.321892,
+    "lng": -111.726331
   },
   {
     "id": 319,
@@ -4571,7 +4619,9 @@
     "source": "Official Air Guitar website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.321892,
+    "lng": -111.726331
   },
   {
     "id": 320,
@@ -4585,7 +4635,9 @@
     "source": "Official Air Guitar website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.321892,
+    "lng": -111.726331
   },
   {
     "id": 321,
@@ -4599,7 +4651,9 @@
     "source": "Official Air Guitar website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 99
+    "score": 99,
+    "lat": 33.321892,
+    "lng": -111.726331
   },
   {
     "id": 322,
@@ -4613,6 +4667,56 @@
     "source": "Official Air Guitar website",
     "verified": "2026-09-01",
     "confidence": "High",
-    "score": 100
+    "score": 100,
+    "lat": 33.321892,
+    "lng": -111.726331
+  },
+  {
+    "id": 323,
+    "business": "Sotol Modern Cocktail Kitchen",
+    "city": "Gilbert",
+    "category": "Drinks",
+    "deal": "Happy Hour",
+    "days": "Saturday-Sunday",
+    "time": "12 PM-3 PM",
+    "terms": "Weekend happy hour; Heritage District location",
+    "source": "Discover Gilbert",
+    "verified": "2026-09-01",
+    "confidence": "High",
+    "score": 99,
+    "lat": 33.3556168,
+    "lng": -111.7894578
+  },
+  {
+    "id": 324,
+    "business": "Sushi Brokers",
+    "city": "Gilbert",
+    "category": "Drinks",
+    "deal": "Reverse Happy Hour",
+    "days": "Friday-Saturday",
+    "time": "10:00 PM-close",
+    "terms": "Reverse happy hour; late-night offer Friday-Saturday; Monday-Thursday tracked separately",
+    "source": "Discover Gilbert official visitor guide: https://www.discovergilbert.com/plan/gilbert-itineraries/happy-hour-hopper/",
+    "verified": "2026-10-19",
+    "confidence": "High",
+    "score": 100,
+    "lat": 33.356,
+    "lng": -111.7898
+  },
+  {
+    "id": 325,
+    "business": "Arizona Rebel Republic",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "Happy Hour",
+    "days": "Sunday-Monday",
+    "time": "All day",
+    "terms": "All-day happy hour Sunday and Monday",
+    "source": "Official Arizona Rebel Republic website",
+    "verified": "2026-09-01",
+    "confidence": "High",
+    "score": 94,
+    "lat": 33.3374,
+    "lng": -111.6024
   }
 ]
