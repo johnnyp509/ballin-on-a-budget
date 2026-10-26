@@ -4718,5 +4718,53 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 326,
+    "business": "Kona Grill",
+    "city": "Gilbert",
+    "category": "Drinks",
+    "deal": "Happy Hour",
+    "days": "Monday",
+    "time": "Open-close",
+    "terms": "SanTan Village location. Monday happy hour runs all day; $3, $6 and $9 food and drink tiers. Check the current menu for eligible items.",
+    "source": "Official Kona Grill Gilbert location page: https://konagrill.com/location/gilbert-az/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.3075,
+    "lng": -111.7435
+  },
+  {
+    "id": 327,
+    "business": "Kona Grill",
+    "city": "Gilbert",
+    "category": "Drinks",
+    "deal": "Happy Hour",
+    "days": "Tuesday-Friday",
+    "time": "2-6 PM",
+    "terms": "SanTan Village location. Happy-hour menu includes $3, $6 and $9 food and drink tiers, including sushi and the $6 Kona Bar Burger. Check current menu for item availability.",
+    "source": "Official Kona Grill Gilbert location page: https://konagrill.com/location/gilbert-az/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 97,
+    "lat": 33.3075,
+    "lng": -111.7435
+  },
+  {
+    "id": 328,
+    "business": "Kona Grill",
+    "city": "Gilbert",
+    "category": "Drinks",
+    "deal": "Reverse Happy Hour",
+    "days": "Daily",
+    "time": "9 PM-close",
+    "terms": "SanTan Village location. Late-night $3, $6 and $9 specials on drinks, appetizers and bar favorites; confirm current menu for eligible items.",
+    "source": "Official Kona Grill Gilbert location page: https://konagrill.com/location/gilbert-az/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.3075,
+    "lng": -111.7435
   }
 ]
