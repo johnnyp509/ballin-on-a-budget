@@ -4827,7 +4827,9 @@
     "source": "https://www.gilbertpizzaaz.com/bar/",
     "verified": "2026-10-26",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.3289767,
+    "lng": -111.7905114
   },
   {
     "id": 362,
