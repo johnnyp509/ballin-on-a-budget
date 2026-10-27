@@ -4718,5 +4718,37 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 347,
+    "business": "Zeitouna",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "Happy Hour",
+    "days": "Tuesday-Thursday",
+    "time": "2-5 PM",
+    "terms": "Official website currently advertises happy hour Tuesday–Thursday, 2–5 PM. Specific discounted items/prices are not published in the accessible page text; confirm the current menu with the restaurant.",
+    "source": "Official Zeitouna website: https://www.zeitouna.net/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.3238,
+    "lng": -111.6358
+  },
+  {
+    "id": 348,
+    "business": "Zeitouna",
+    "city": "Mesa",
+    "category": "Food",
+    "deal": "Lunch Specials",
+    "days": "Tuesday-Friday",
+    "time": "11 AM-2 PM",
+    "terms": "Official website advertises lunch specials Tuesday–Friday, 11 AM–2 PM. Individual items/prices were not specified in the accessible page text; confirm current offerings with the restaurant.",
+    "source": "Official Zeitouna website: https://www.zeitouna.net/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 95,
+    "lat": 33.3238,
+    "lng": -111.6358
   }
 ]
