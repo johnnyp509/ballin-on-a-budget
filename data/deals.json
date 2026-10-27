@@ -4718,5 +4718,53 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 326,
+    "business": "Pacino's Italian",
+    "city": "Mesa",
+    "category": "Food",
+    "deal": "Happy-hour bites from $10",
+    "days": "Daily",
+    "time": "3-5 PM (October-May)",
+    "terms": "Official website lists happy-hour bites starting at $10; menu and prices may change. The restaurant's seasonal hours page says 3 PM-close June-September and 3-5 PM October-May.",
+    "source": "Official Pacino's Italian specials and homepage: https://pacinositalian.com/events-specials ; https://pacinositalian.com/",
+    "verified": "2026-10-26",
+    "confidence": "Medium",
+    "score": 85,
+    "lat": 33.4771,
+    "lng": -111.6858
+  },
+  {
+    "id": 327,
+    "business": "Pacino's Italian",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "Reverse Happy Hour",
+    "days": "Daily",
+    "time": "7 PM-close",
+    "terms": "Restaurant's official specials page advertises reverse happy hour from 7 PM until close, including weekends. Confirm current offers with the restaurant.",
+    "source": "Official Pacino's Italian specials page: https://pacinositalian.com/events-specials",
+    "verified": "2026-10-26",
+    "confidence": "Medium",
+    "score": 84,
+    "lat": 33.4771,
+    "lng": -111.6858
+  },
+  {
+    "id": 328,
+    "business": "Pacino's Italian",
+    "city": "Mesa",
+    "category": "Food",
+    "deal": "Complimentary appetizer with 2 entrées",
+    "days": "Tuesday-Thursday",
+    "time": "4-5:30 PM",
+    "terms": "Complimentary appetizer with purchase of two entrées; confirm exclusions and current availability with the restaurant.",
+    "source": "Official Pacino's Italian specials page: https://pacinositalian.com/events-specials",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 94,
+    "lat": 33.4771,
+    "lng": -111.6858
   }
 ]
