@@ -4718,5 +4718,37 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 350,
+    "business": "Postino East",
+    "city": "Gilbert",
+    "category": "Drinks",
+    "deal": "$6 Glasses of Wine & $6 Beer Pitchers",
+    "days": "Daily",
+    "time": "Open until 5 PM",
+    "terms": "Official location page advertises $6 glasses of wine and $6 pitchers of beer daily until 5 PM. Confirm selection and current availability with the location.",
+    "source": "Official Postino East location page: https://www.postino.com/locations/postino-east",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 97,
+    "lat": 33.3548,
+    "lng": -111.789
+  },
+  {
+    "id": 351,
+    "business": "Postino East",
+    "city": "Gilbert",
+    "category": "Food",
+    "deal": "Bottle of Wine + Bruschetta Board $25",
+    "days": "Monday-Tuesday",
+    "time": "After 8 PM",
+    "terms": "Official location page advertises a board of bruschetta and a bottle of wine for $25 after 8 PM on Mondays and Tuesdays. Confirm eligible bottles and current availability with the location.",
+    "source": "Official Postino East location page: https://www.postino.com/locations/postino-east",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.3548,
+    "lng": -111.789
   }
 ]
