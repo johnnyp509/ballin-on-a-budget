@@ -4718,5 +4718,37 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 345,
+    "business": "Pacino's Italian",
+    "city": "Mesa",
+    "category": "Events",
+    "deal": "Thursday Karaoke",
+    "days": "Thursday",
+    "time": "8-11 PM",
+    "terms": "Official specials page advertises karaoke hosted by Rob from 8–11 PM. Confirm event is running that week before visiting.",
+    "source": "Official Pacino's Italian specials page: https://pacinositalian.com/events-specials",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 94,
+    "lat": 33.4771,
+    "lng": -111.6858
+  },
+  {
+    "id": 346,
+    "business": "Pacino's Italian",
+    "city": "Mesa",
+    "category": "Food",
+    "deal": "3-course dinner for two — $49.99",
+    "days": "Tuesday",
+    "time": "4-9 PM",
+    "terms": "Official specials page lists a three-course dinner for two for $49.99, with one shared appetizer, two selected entrées, and one shared dessert. Add a bottle of house wine for $18. Confirm listed day and entrée selection with restaurant.",
+    "source": "Official Pacino's Italian specials page: https://pacinositalian.com/events-specials",
+    "verified": "2026-10-26",
+    "confidence": "Medium",
+    "score": 88,
+    "lat": 33.4771,
+    "lng": -111.6858
   }
 ]
