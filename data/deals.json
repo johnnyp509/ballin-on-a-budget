@@ -4718,5 +4718,19 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 326,
+    "business": "Hop Social Grill",
+    "city": "Chandler",
+    "category": "Drinks",
+    "deal": "Twice-Daily Happy Hour",
+    "days": "Daily",
+    "time": "3 PM-6 PM; 9 PM-close",
+    "terms": "Happy hour is offered daily during both time windows; check the official happy-hour menu for current item-level offers and prices.",
+    "source": "Official restaurant website: https://hopsocialgrill.com/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 94
   }
 ]
