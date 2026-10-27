@@ -4718,5 +4718,21 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 326,
+    "business": "Pacino's Italian",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "$7 Signature Martinis",
+    "days": "Tuesday",
+    "time": "3-9 PM",
+    "terms": "Official specials page lists $7 signature martinis on Tuesday during Ladies Night. Confirm current menu and availability with the restaurant.",
+    "source": "Official Pacino's Italian specials page: https://pacinositalian.com/events-specials",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.4771,
+    "lng": -111.6858
   }
 ]
