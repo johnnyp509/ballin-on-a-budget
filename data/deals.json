@@ -4787,7 +4787,9 @@
     "source": "https://copperstillmoonshinegrill.com/page/events",
     "verified": "2026-10-26",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3036967,
+    "lng": -111.7888655
   },
   {
     "id": 380,
@@ -4801,7 +4803,9 @@
     "source": "https://copperstillmoonshinegrill.com/page/events",
     "verified": "2026-10-26",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3036967,
+    "lng": -111.7888655
   },
   {
     "id": 381,
@@ -4815,7 +4819,9 @@
     "source": "https://copperstillmoonshinegrill.com/page/events",
     "verified": "2026-10-26",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3036967,
+    "lng": -111.7888655
   },
   {
     "id": 382,
@@ -4829,7 +4835,9 @@
     "source": "https://copperstillmoonshinegrill.com/page/events",
     "verified": "2026-10-26",
     "confidence": "High",
-    "score": 94
+    "score": 94,
+    "lat": 33.3036967,
+    "lng": -111.7888655
   },
   {
     "id": 383,
@@ -4843,6 +4851,8 @@
     "source": "https://copperstillmoonshinegrill.com/page/events",
     "verified": "2026-10-26",
     "confidence": "High",
-    "score": 95
+    "score": 95,
+    "lat": 33.3036967,
+    "lng": -111.7888655
   }
 ]
