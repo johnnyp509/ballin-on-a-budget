@@ -4815,7 +4815,9 @@
     "days": "Monday-Thursday",
     "time": "3 PM-6 PM",
     "terms": "Half off draft beer, well drinks, most wines, Parkritas, bowls, and French fries. Tournament-day exclusions may apply.",
-    "score": 96
+    "score": 96,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 340,
@@ -4829,7 +4831,9 @@
     "days": "Friday",
     "time": "12 PM-6 PM",
     "terms": "Half off draft beer, well drinks, most wines, Parkritas, bowls, and French fries. Tournament-day exclusions may apply.",
-    "score": 96
+    "score": 96,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 341,
@@ -4843,7 +4847,9 @@
     "days": "Daily",
     "time": "All day",
     "terms": "Official website lists this among all-day, everyday specials; selection may vary.",
-    "score": 95
+    "score": 95,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 342,
@@ -4857,7 +4863,9 @@
     "days": "Daily",
     "time": "All day",
     "terms": "Official website lists this among all-day, everyday specials.",
-    "score": 95
+    "score": 95,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 343,
@@ -4871,7 +4879,9 @@
     "days": "Daily",
     "time": "All day",
     "terms": "Official website lists this among all-day, everyday specials.",
-    "score": 95
+    "score": 95,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 344,
@@ -4885,7 +4895,9 @@
     "days": "Daily",
     "time": "All day",
     "terms": "Rotating draft selection; ask staff which beers are included.",
-    "score": 95
+    "score": 95,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 345,
@@ -4899,7 +4911,9 @@
     "days": "Daily",
     "time": "All day",
     "terms": "Official website lists this among all-day, everyday specials.",
-    "score": 95
+    "score": 95,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 346,
@@ -4913,7 +4927,9 @@
     "days": "Monday",
     "time": "All day",
     "terms": "Official rotating daily special.",
-    "score": 96
+    "score": 96,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 347,
@@ -4927,7 +4943,9 @@
     "days": "Tuesday",
     "time": "All day",
     "terms": "Official rotating daily special.",
-    "score": 96
+    "score": 96,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 348,
@@ -4941,7 +4959,9 @@
     "days": "Wednesday",
     "time": "All day",
     "terms": "Official rotating daily special.",
-    "score": 96
+    "score": 96,
+    "lat": 33.3266,
+    "lng": -111.73994
   },
   {
     "id": 349,
@@ -4955,6 +4975,8 @@
     "days": "Thursday",
     "time": "All day",
     "terms": "Official rotating daily special.",
-    "score": 96
+    "score": 96,
+    "lat": 33.3266,
+    "lng": -111.73994
   }
 ]
