@@ -4718,5 +4718,53 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 352,
+    "business": "Cork & Craft",
+    "city": "Chandler",
+    "category": "Drinks",
+    "deal": "Happy Hour: $2 Off Tapas, Draft Beer, Well Drinks & Glasses of Wine",
+    "days": "Monday-Friday",
+    "time": "3-6 PM",
+    "terms": "Official specials page lists $2 off all tapas, draft beer, well drinks and glasses of wine; $1 off bottled beer and $6 off bottles of wine. Confirm current availability with venue.",
+    "source": "https://www.cork-and-craft.com/menu",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.235599,
+    "lng": -111.791646
+  },
+  {
+    "id": 353,
+    "business": "Cork & Craft",
+    "city": "Chandler",
+    "category": "Drinks",
+    "deal": "Reverse Happy Hour: $5 Featured Draft Beer",
+    "days": "Monday-Wednesday",
+    "time": "8-10 PM",
+    "terms": "Featured drafts listed include Michelob Ultra, Coors Light, Dos Equis, Firestone Walker 805 and Stella Artois; confirm selection with venue.",
+    "source": "https://www.cork-and-craft.com/menu",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.235599,
+    "lng": -111.791646
+  },
+  {
+    "id": 354,
+    "business": "Cork & Craft",
+    "city": "Chandler",
+    "category": "Food",
+    "deal": "$10 Featured Boards",
+    "days": "Monday-Wednesday",
+    "time": "8-10 PM",
+    "terms": "Reverse happy-hour featured boards listed as Bruschetta Board, Flatbread, Hummus Board and Pretzel Board; confirm current availability with venue.",
+    "source": "https://www.cork-and-craft.com/menu",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 95,
+    "lat": 33.235599,
+    "lng": -111.791646
   }
 ]
