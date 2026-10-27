@@ -4718,5 +4718,37 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 326,
+    "business": "The Original Blue Adobe Grille",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "$7 Well Drinks, Wine & Margaritas",
+    "days": "Monday-Saturday",
+    "time": "3-6 PM",
+    "terms": "Official website lists happy-hour well drinks, wine, and margaritas for $7. The restaurant is closed Sundays according to its current hours.",
+    "source": "Official Blue Adobe Grille website: https://originalblueadobe.com/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 97,
+    "lat": 33.4147,
+    "lng": -111.8301
+  },
+  {
+    "id": 327,
+    "business": "The Original Blue Adobe Grille",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "$5 Draft Beers",
+    "days": "Monday-Saturday",
+    "time": "3-6 PM",
+    "terms": "Official website lists draft beers for $5 during happy hour. Confirm current selection with the restaurant.",
+    "source": "Official Blue Adobe Grille website: https://originalblueadobe.com/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 97,
+    "lat": 33.4147,
+    "lng": -111.8301
   }
 ]
