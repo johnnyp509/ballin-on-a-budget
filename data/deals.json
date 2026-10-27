@@ -4766,5 +4766,37 @@
     "score": 96,
     "lat": 33.4144,
     "lng": -111.8325
+  },
+  {
+    "id": 332,
+    "business": "Pedal Haus Brewery",
+    "city": "Mesa",
+    "category": "Food",
+    "deal": "Half-off wings",
+    "days": "Sunday",
+    "time": "Open-close",
+    "terms": "Visit Mesa lists half-off wings all day Sunday; confirm participating location and availability before ordering.",
+    "source": "Visit Mesa Pedal Haus Brewery Mesa listing: https://www.visitmesa.com/directory/pedal-haus-brewery-mesa-unique-venues/",
+    "verified": "2026-10-26",
+    "confidence": "Medium",
+    "score": 88,
+    "lat": 33.4144,
+    "lng": -111.8325
+  },
+  {
+    "id": 333,
+    "business": "Pedal Haus Brewery",
+    "city": "Mesa",
+    "category": "Food",
+    "deal": "Pretzel Fest board + 2 beers for $19",
+    "days": "Wednesday",
+    "time": "All day",
+    "terms": "Official Mesa menu lists Brewer's Board + two Pedal Haus beers for $19 all day Wednesday; confirm seasonal menu availability.",
+    "source": "Official Pedal Haus Mesa menu: https://www.pedalhausbrewery.com/menu-mesa",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.4144,
+    "lng": -111.8325
   }
 ]
