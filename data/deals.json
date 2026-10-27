@@ -4718,5 +4718,21 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 349,
+    "business": "D'Vine Bistro",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "Happy Hour",
+    "days": "Monday-Friday",
+    "time": "2-6 PM",
+    "terms": "Official website lists happy hour Monday–Friday 2–6 PM; item-level offers are on the restaurant's current happy-hour menu and should be checked for exact prices. Saturday 11 AM–6 PM and Sunday 3–6 PM are also listed on the site.",
+    "source": "Official D'Vine Bistro Mesa website: https://www.dvinebistromesa101.com/",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.4791,
+    "lng": -111.6854
   }
 ]
