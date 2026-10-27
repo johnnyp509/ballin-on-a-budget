@@ -4718,5 +4718,53 @@
     "score": 94,
     "lat": 33.3374,
     "lng": -111.6024
+  },
+  {
+    "id": 329,
+    "business": "Pedal Haus Brewery",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "Happy Hour — select drafts $2 off",
+    "days": "Tuesday-Friday",
+    "time": "4-6 PM",
+    "terms": "$2 off select house drafts; eligible beers are listed on the current Mesa menu. All-day Monday happy-hour pricing is tracked separately.",
+    "source": "Official Pedal Haus Mesa location and menu: https://www.pedalhausbrewery.com/mesa-location-2 ; https://www.pedalhausbrewery.com/menu-mesa",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 97,
+    "lat": 33.4144,
+    "lng": -111.8325
+  },
+  {
+    "id": 330,
+    "business": "Pedal Haus Brewery",
+    "city": "Mesa",
+    "category": "Drinks",
+    "deal": "$5 Well Drinks & $6 Haus Margarita",
+    "days": "Tuesday-Friday",
+    "time": "4-6 PM",
+    "terms": "Happy-hour menu lists $5 well drinks and a $6 Haus Margarita; check current menu for availability and substitutions.",
+    "source": "Official Pedal Haus Mesa menu: https://www.pedalhausbrewery.com/menu-mesa",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.4144,
+    "lng": -111.8325
+  },
+  {
+    "id": 331,
+    "business": "Pedal Haus Brewery",
+    "city": "Mesa",
+    "category": "Food",
+    "deal": "Two sliders for $8",
+    "days": "Monday-Friday",
+    "time": "Happy hour; all day Monday and 4-6 PM Tuesday-Friday",
+    "terms": "Two sliders for $8 during happy hour; choice of BBQ pork, Haus burger, or Italiano sliders per the current Mesa menu.",
+    "source": "Official Pedal Haus Mesa menu: https://www.pedalhausbrewery.com/menu-mesa",
+    "verified": "2026-10-26",
+    "confidence": "High",
+    "score": 96,
+    "lat": 33.4144,
+    "lng": -111.8325
   }
 ]
