@@ -4788,14 +4788,14 @@
     "business": "Pedal Haus Brewery",
     "city": "Mesa",
     "category": "Food",
-    "deal": "Pretzel Fest board + 2 beers for $19",
+    "deal": "Pretzel Fest board + 2 beers for $20",
     "days": "Wednesday",
     "time": "All day",
-    "terms": "Official Mesa menu lists Brewer's Board + two Pedal Haus beers for $19 all day Wednesday; confirm seasonal menu availability.",
-    "source": "Official Pedal Haus Mesa menu: https://www.pedalhausbrewery.com/menu-mesa",
+    "terms": "Official Visit Mesa listing says Wednesday all-day Pretzel Fest pairing is $20 for a Brewer’s Board + 2 Pedal Haus beers; this corrects the earlier $19 amount. Confirm participating location and menu availability.",
+    "source": "Visit Mesa Pedal Haus Mesa listing: https://www.visitmesa.com/directory/pedal-haus-brewery-mesa-unique-venues/",
     "verified": "2026-10-26",
     "confidence": "High",
-    "score": 96,
+    "score": 97,
     "lat": 33.4144,
     "lng": -111.8325
   }
