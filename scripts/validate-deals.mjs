@@ -76,7 +76,7 @@ for (const [index, deal] of deals.entries()) {
   else if (seen.has(deal.id)) fail(`Duplicate deal id: ${deal.id}`);
   else seen.add(deal.id);
 
-  if (typeof deal.verified !== 'string' || !/^\\d{4}-\\d{2}-\\d{2}$/.test(deal.verified) ||
+  if (typeof deal.verified !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(deal.verified) ||
       Number.isNaN(Date.parse(`${deal.verified}T00:00:00Z`)) ||
       new Date(`${deal.verified}T00:00:00Z`).toISOString().slice(0, 10) !== deal.verified) {
     fail(`Deal id ${deal.id ?? 'unknown'} has an invalid verified date`);
