@@ -130,7 +130,7 @@ const nearbyDealsSource = html.match(/function nearbyDeals\(\)\s*\{[^\n]*\}/);
 assert.ok(milesBetweenSource && locationCenterSource && nearbyDealsSource, 'map distance helpers must exist');
 
 const mapHelpers = vm.runInNewContext(
-  `const deals = ${JSON.stringify(deals)}; let userLocation = 'Gilbert', userRadius = 10;
+  `const deals = ${JSON.stringify([...JSON.parse((await readFileSync('data/deals.json', 'utf8'))), { id:999, business:'Test deal without coordinates', city:'Gilbert', lat:null, lng:null, score:1 }])}; let userLocation = 'Gilbert', userRadius = 10;
   ${milesBetweenSource[0]}\n${locationCenterSource[0]}\n${nearbyDealsSource[0]}
   ({ nearbyDeals, setRadius(value) { userRadius = value; } })`
 );
@@ -139,7 +139,8 @@ assert.ok(tenMileDeals.some(deal => deal.id === 326), 'Hop Social Grill should b
 for (const id of [333, 334, 335, 336, 337, 338]) {
   assert.ok(tenMileDeals.some(deal => deal.id === id), `Four Silos deal ${id} should be mappable within 10 miles of Gilbert`);
 }
-assert.ok(!tenMileDeals.some(deal => [375, 376, 377, 378].includes(deal.id)), 'deals without coordinates should not create map pins');
+assert.ok([375, 376, 377, 378].every(id => tenMileDeals.some(deal => deal.id === id)), 'Draft Sports Grill deals with coordinates should create map pins when in radius');
+assert.ok(!tenMileDeals.some(deal => deal.id === 999), 'deals without coordinates should not create map pins');
 assert.ok(tenMileDeals.every(deal => Number.isFinite(deal.lat) && Number.isFinite(deal.lng) && deal.distance <= 10), 'map results must have coordinates and respect the radius');
 mapHelpers.setRadius(2);
 assert.ok(mapHelpers.nearbyDeals().every(deal => deal.distance <= 2), 'a smaller radius must exclude distant pins');
