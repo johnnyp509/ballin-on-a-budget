@@ -1,4 +1,4 @@
-const CACHE_NAME = "ballin-budget-v5";
+const CACHE_NAME = "ballin-budget-v6";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -24,7 +24,24 @@ self.addEventListener("activate", event => {
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
-  const isDealData = url.origin === location.origin && /\/data\/deals\.json$/.test(url.pathname);
+  const isNavigation = event.request.mode === "navigate" && url.origin === location.origin;
+  if (isNavigation) {
+    // Network-first for app pages so deployed fixes reach returning users; fall back offline.
+    event.respondWith(
+      fetch(event.request).then(response => {
+        if (response && response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+        }
+        return response;
+      }).catch(() =>
+        caches.match(event.request).then(cached => cached || caches.match("./index.html"))
+      )
+    );
+    return;
+  }
+
+  const isDealData = url.origin === location.origin && /\\/data\\/deals\\.json$/.test(url.pathname);
   if (isDealData) {
     // Deal data is network-first so published corrections are not hidden behind stale cache.
     event.respondWith(
