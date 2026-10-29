@@ -5,12 +5,14 @@ on:
     paths:
       - 'data/deals.json'
       - 'index.html'
+      - 'sw.js'
       - 'scripts/validate-deals.mjs'
       - '.github/workflows/validate-deals.yml'
   push:
     paths:
       - 'data/deals.json'
       - 'index.html'
+      - 'sw.js'
       - 'scripts/validate-deals.mjs'
       - '.github/workflows/validate-deals.yml'
 
