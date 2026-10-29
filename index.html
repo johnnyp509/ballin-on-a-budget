@@ -304,14 +304,89 @@ function dayMatches(days, day){
   return false;
 }
 function minutesFromTime(t){let m=t.toLowerCase().replace(/\./g,'').trim();let z=m.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)\b/);if(!z)return null;let h=Number(z[1]),min=Number(z[2]||0),ap=z[3];if(h===12)h=0;if(ap==='pm')h+=12;return h*60+min}
-function isHappeningNow(d){if(!isFreshForLive(d))return false;let now=new Date(), day=now.getDay(), mins=now.getHours()*60+now.getMinutes(), days=(d.days||'').toLowerCase(), time=(d.time||'').toLowerCase();if(!dayMatches(days,day))return false;if(/all day|daily/.test(time)||/all day/.test(days))return true;if(/regular hours|location dependent|evening/.test(time))return false;let until=time.match(/(?:until|through|thru)\s+(\d{1,2}(?::\d{2})?\s*(?:am|pm))/i);if(until){let end=minutesFromTime(until[1]);return end!=null&&mins<=end}let parts=time.replace(/[–—]/g,'-').split('-');if(parts.length<2)return false;let start=minutesFromTime(parts[0].trim()+(parts[0].match(/am|pm/i)?'':(parts[1].match(/am|pm/i)||['','', 'pm'])[0]));let end=parts[1].includes('close')?1439:minutesFromTime(parts[1].trim());if(start==null||end==null)return false;if(end<start)end+=720;if(end>1439)end=1439;return mins>=start&&mins<=end}
-function startsSoon(d){if(!isFreshForLive(d))return false;let now=new Date(),day=now.getDay(),mins=now.getHours()*60+now.getMinutes(),days=(d.days||'').toLowerCase(),time=(d.time||'').toLowerCase();if(isHappeningNow(d)||!dayMatches(days,day)||/all day|daily|regular hours|location dependent|evening/.test(time))return false;let until=time.match(/(?:until|through|thru)\s+/i);if(until)return false;let parts=time.replace(/[–—]/g,'-').split('-');if(parts.length<2)return false;let suffix=(parts[1].match(/(am|pm)/i)||['','pm'])[0];let start=minutesFromTime(parts[0].trim()+(parts[0].match(/am|pm/i)?'':suffix));if(start==null)return false;let delta=start-mins;return delta>0&&delta<=180}
-function minutesRemaining(d){if(!isHappeningNow(d))return Infinity;let t=(d.time||'').toLowerCase();if(/all day|daily|close/.test(t))return Infinity;let until=t.match(/(?:until|through|thru)\s+(\d{1,2}(?::\d{2})?\s*(?:am|pm))/i);let end=until?minutesFromTime(until[1]):null;if(end==null){let parts=t.replace(/[–—]/g,'-').split('-');if(parts.length<2)return Infinity;end=minutesFromTime(parts[1].trim())}if(end==null)return Infinity;let now=new Date(),nowMins=now.getHours()*60+now.getMinutes();let delta=end-nowMins;if(delta<0)delta+=1440;return delta}
+function timeWindows(value){
+  return String(value||'').toLowerCase().replace(/[–—]/g,'-').split(';').map(function(segment){
+    const parts=segment.trim().split('-');
+    if(parts.length<2)return null;
+    const startText=parts.shift().trim();
+    const endText=parts.join('-').trim();
+    const suffix=(endText.match(/\b(am|pm)\b/i)||['','pm'])[1];
+    const start=minutesFromTime(startText+(startText.match(/\b(am|pm)\b/i)?'':' '+suffix));
+    const isClose=/\bclose\b/i.test(endText);
+    const end=isClose?1439:minutesFromTime(endText);
+    if(start==null||end==null)return null;
+    return {start,end:end<start?end+1440:end,close:isClose,endLabel:endText};
+  }).filter(Boolean);
+}
+function isHappeningNow(d){
+  if(!isFreshForLive(d))return false;
+  const now=new Date(),day=now.getDay(),mins=now.getHours()*60+now.getMinutes();
+  const days=(d.days||'').toLowerCase(),time=(d.time||'').toLowerCase();
+  if(!dayMatches(days,day))return false;
+  if(/all day|daily/.test(time)||/all day/.test(days))return true;
+  if(/regular hours|location dependent|evening/.test(time))return false;
+  const until=time.match(/(?:until|through|thru)\s+(\d{1,2}(?::\d{2})?\s*(?:am|pm))/i);
+  if(until){const end=minutesFromTime(until[1]);return end!=null&&mins<=end;}
+  return timeWindows(time).some(function(w){return mins>=w.start&&mins<=Math.min(w.end,1439);});
+}
+
+
+function startsSoon(d){
+  if(!isFreshForLive(d))return false;
+  const now=new Date(),day=now.getDay(),mins=now.getHours()*60+now.getMinutes();
+  const days=(d.days||'').toLowerCase(),time=(d.time||'').toLowerCase();
+  if(isHappeningNow(d)||!dayMatches(days,day)||/all day|daily|regular hours|location dependent|evening/.test(time))return false;
+  if(/(?:until|through|thru)\s+/i.test(time))return false;
+  return timeWindows(time).some(function(w){const delta=w.start-mins;return delta>0&&delta<=180;});
+}
+
+
+function minutesRemaining(d){
+  if(!isHappeningNow(d))return Infinity;
+  const t=(d.time||'').toLowerCase();
+  if(/all day|daily/.test(t))return Infinity;
+  const until=t.match(/(?:until|through|thru)\s+(\d{1,2}(?::\d{2})?\s*(?:am|pm))/i);
+  const nowMins=new Date().getHours()*60+new Date().getMinutes();
+  if(until){const end=minutesFromTime(until[1]);return end==null?Infinity:Math.max(0,end-nowMins);}
+  const active=timeWindows(t).find(function(w){return nowMins>=w.start&&nowMins<=Math.min(w.end,1439);});
+  if(!active||active.close)return Infinity;
+  return Math.max(0,Math.min(active.end,1439)-nowMins);
+}
+
+
 function clearTonightQuickLink(){document.querySelectorAll('.quickDecisionGrid button').forEach(function(b){b.classList.remove('tonightOn')})}
 function markTonightQuickLink(on){document.querySelectorAll('.quickDecisionGrid button').forEach(function(b){b.classList.remove('tonightOn')});if(on){let b=Array.from(document.querySelectorAll('.quickDecisionGrid button')).find(function(x){return /TONIGHT'S DEALS/i.test(x.innerText||'')});if(b)b.classList.add('tonightOn')}}
 function tonightStartMinutes(d){let time=(d.time||'').toLowerCase().replace(/–/g,'-').replace(/—/g,'-');let m=time.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)/i);if(!m)return null;let h=+m[1],mi=+(m[2]||0),ap=m[3].toLowerCase();if(ap==='pm'&&h<12)h+=12;if(ap==='am'&&h===12)h=0;return h*60+mi}
-function isTonight(d){if(!isFreshForLive(d))return false;let now=new Date(),day=now.getDay(),mins=now.getHours()*60+now.getMinutes(),days=(d.days||'').toLowerCase(),time=(d.time||'').toLowerCase();if(!dayMatches(days,day))return false;if(isHappeningNow(d))return true;if(/regular hours|location dependent|evening|all day|daily|open-close|open-7 pm|until 6 pm/.test(time))return true;let parts=time.replace(/–/g,'-').split('-');if(parts.length<2)return false;let start=tonightStartMinutes(d);return start!=null&&start>=mins&&start<=22*60;}
-function tonightLabel(d){if(isHappeningNow(d))return currentEndLabel(d);let t=(d.time||'').toLowerCase();if(/all day|daily/.test(t))return '🌙 TONIGHT • ALL DAY';if(/regular hours|open-close|location dependent|evening/.test(t))return '🌙 TONIGHT • REGULAR HOURS';let parts=t.replace(/–/g,'-').split('-');if(parts.length>=2){let start=minutesFromTime(parts[0].trim()+(parts[0].match(/am|pm/i)?'':(parts[1].match(/am|pm/i)||['','','pm'])[0]));if(start!=null){let now=new Date(),mins=now.getHours()*60+now.getMinutes(),delta=start-mins;if(delta>0&&delta<60)return '🌙 STARTS IN '+delta+' MIN';if(delta>0)return '🌙 STARTS AT '+parts[0].trim().toUpperCase();}}return '🌙 TONIGHT'}
+function isTonight(d){
+  if(!isFreshForLive(d))return false;
+  const now=new Date(),day=now.getDay(),mins=now.getHours()*60+now.getMinutes();
+  const days=(d.days||'').toLowerCase(),time=(d.time||'').toLowerCase();
+  if(!dayMatches(days,day))return false;
+  if(isHappeningNow(d))return true;
+  if(/regular hours|location dependent|evening|all day|daily|open-close|open-7 pm|until 6 pm/.test(time))return true;
+  return timeWindows(time).some(function(w){return w.start>=mins&&w.start<=22*60;});
+}
+
+
+function tonightLabel(d){
+  if(isHappeningNow(d))return currentEndLabel(d);
+  const t=(d.time||'').toLowerCase();
+  if(/all day|daily/.test(t))return '🌙 TONIGHT • ALL DAY';
+  if(/regular hours|open-close|location dependent|evening/.test(t))return '🌙 TONIGHT • REGULAR HOURS';
+  const mins=new Date().getHours()*60+new Date().getMinutes();
+  const next=timeWindows(t).find(function(w){return w.start>mins&&w.start<=22*60;});
+  if(next){
+    const delta=next.start-mins;
+    if(delta<60)return '🌙 STARTS IN '+delta+' MIN';
+    let hour=Math.floor(next.start/60),minute=next.start%60,suffix=hour>=12?'PM':'AM';
+    hour=hour%12||12;
+    const label=hour+(minute?':'+String(minute).padStart(2,'0'):'')+' '+suffix;
+    return '🌙 STARTS AT '+label;
+  }
+  return '🌙 TONIGHT';
+}
+
+
 
 function ensureShareActions(){
   document.querySelectorAll('.detailActions').forEach(function(row){
@@ -388,8 +463,38 @@ document.addEventListener('click',function(e){
 },true);
 
 function render(){updateSavedBadge();let sf=document.getElementById('savedFilterBtn');if(sf)sf.textContent='♡ SAVED'+(saved.size?' ('+saved.size+')':'');updateProfile();updateHomeAreaStrip();renderHomeSavedPreview();renderDeals();let available=filteredDeals();let allLive=available.filter(isHappeningNow);let core=allLive.slice().sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,12);let best=document.getElementById('bestBet');if(best){if(core.length){let b=core[0];best.innerHTML=`<details class="bestBet"><summary style="cursor:pointer;list-style:none"><div class="bestBetTitle">🏆 BEST BET RIGHT NOW</div><div class="bestBetBiz">${b.business}</div><div class="bestBetDeal">${b.deal}</div><div class="bestBetMeta"><span class="bestBetScore">SCORE ${b.score}</span>${currentEndLabel(b)}<br>📍 ${b.city} • ${b.days} • ${b.time}</div><div style="margin-top:10px;font-weight:900;color:#ff6a00">VIEW DEAL DETAILS →</div></summary><div class="detailCard" style="margin-top:12px"><div class="detailLabel">DEAL</div><div class="detailText">${b.deal}</div><div class="detailLabel">DAYS & TIME</div><div class="detailText">${b.days}<br>${b.time}</div><div class="detailLabel">TERMS</div><div class="detailText">${b.terms}</div><div class="detailLabel">VERIFICATION</div><div class="detailText">✓ ${b.confidence}-confidence • Verified ${b.verified}</div><div class="detailActions"><button class="detailSave" type="button" onclick="event.stopPropagation();toggleSave(${b.id});render()">${saved.has(b.id)?'♥ SAVED':'♡ SAVE DEAL'}</button><button data-share-id="${b.id}" class="detailShare" type="button" data-ballin-share="${b.id}" onclick="return window.ballinShareDeal(this.dataset.shareId,event)">↗ SHARE</button><a class="detailDir" href="https://www.google.com/maps/dir/?api=1&destination=${(Number.isFinite(b.lat)&&Number.isFinite(b.lng))?`${b.lat},${b.lng}`:`${encodeURIComponent(b.business)},${encodeURIComponent(b.city)},AZ`}" target="_blank" rel="noopener">DIRECTIONS</a></div></div></details>`}else best.innerHTML=''}let near=document.getElementById('nearMeHome');if(near){let nearLive=available.filter(isHappeningNow).slice().sort((a,b)=>(minutesRemaining(a)-minutesRemaining(b))||(b.score||0)-(a.score||0)).slice(0,4);near.innerHTML=nearLive.length?`<div class="nearMeWrap"><div class="nearMeHead"><div class="nearMeTitle">📍 NEAR YOU RIGHT NOW</div><button class="filter" type="button" onclick="show('map')">VIEW MAP →</button></div><div class="nearMeSub">Best live deals in your selected area: ${userLocation}</div><div class="nearMeGrid">${nearLive.map(d=>{let destination=(Number.isFinite(d.lat)&&Number.isFinite(d.lng))?`${d.lat},${d.lng}`:`${encodeURIComponent(d.business)},${encodeURIComponent(d.city)},AZ`;return `<details class="nearMeCard"><summary style="cursor:pointer;list-style:none"><div class="nbadge">🔥 LIVE NOW</div><div class="nbiz">${d.business}</div><div class="ndeal">${d.deal}</div><div class="nmeta">⭐ ${d.score} • ${d.city} • ${currentEndLabel(d)}</div><div style="margin-top:10px;font-weight:900;color:#ff6a00">VIEW DEAL DETAILS →</div></summary><div class="detailCard" style="margin-top:12px"><div class="detailLabel">DEAL</div><div class="detailText">${d.deal}</div><div class="detailLabel">DAYS & TIME</div><div class="detailText">${d.days}<br>${d.time}</div><div class="detailLabel">TERMS</div><div class="detailText">${d.terms}</div><div class="detailLabel">VERIFICATION</div><div class="detailText">✓ ${d.confidence}-confidence • Verified ${d.verified}</div><div class="detailActions"><button class="detailSave" type="button" onclick="event.stopPropagation();toggleSave(${d.id});render()">${saved.has(d.id)?'♥ SAVED':'♡ SAVE DEAL'}</button><a class="detailDir" href="https://www.google.com/maps/dir/?api=1&destination=${destination}" target="_blank" rel="noopener">DIRECTIONS</a></div></div></details>`}).join('')}</div></div>`:''}let h=document.getElementById('happeningList'),hh=document.getElementById('happeningHeader');if(hh)hh.textContent=allLive.length?`🔥 HAPPENING NOW • ${allLive.length} LIVE`: '🔥 HAPPENING NOW';let ls=document.getElementById('liveShortcut');if(ls)ls.innerHTML=allLive.length?'<button class="filter" type="button" onclick="show(\'deals\');setCat(\'LIVE\',document.querySelector(\'#deals .filter:nth-child(2)\'))">SEE ALL LIVE DEALS →</button>':'';if(h)h.innerHTML=core.map(card).join('')||'<div class="empty">Nothing happening right now.</div>';let soon=available.filter(startsSoon).sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,8);let sl=document.getElementById('startingSoonList');if(sl)sl.innerHTML=soon.map(card).join('')||'<div class="empty">Nothing starting in the next 3 hours.</div>';let tonight=document.getElementById('tonightDeals');if(tonight){let tn=available.filter(isTonight).slice().sort((a,b)=>Number(isHappeningNow(b))-Number(isHappeningNow(a))||(b.score||0)-(a.score||0)).slice(0,8);tonight.innerHTML=`<div class="tonightWrap"><div class="tonightHead"><div class="tonightTitle">🌙 TONIGHT'S DEALS</div><button class="filter" type="button" onclick="show('deals');setCat('ALL',document.querySelector('#deals .filter:nth-child(1)'))">SEE ALL →</button></div><div class="tonightSub">Deals you can use tonight in your selected area.</div><div class="tonightList">${tn.length?tn.map(d=>`<details class="tonightCard ${isHappeningNow(d)?'live':''}"><summary style="cursor:pointer;list-style:none"><div class="tonightBadge">${isHappeningNow(d)?'🔥 LIVE NOW':'🌙 TONIGHT'}</div><div class="tonightBiz">${d.business}</div><div class="tonightDeal">${d.deal}</div><div class="tonightMeta">📍 ${d.city} • ${d.days} • ${d.time}</div><div class="tonightMore">${tonightLabel(d)} • VIEW DEAL DETAILS →</div></summary><div class="detailCard" style="margin-top:12px"><div class="detailLabel">DEAL</div><div class="detailText">${d.deal}</div><div class="detailLabel">DAYS & TIME</div><div class="detailText">${d.days}<br>${d.time}</div><div class="detailLabel">TERMS</div><div class="detailText">${d.terms}</div><div class="detailLabel">VERIFICATION</div><div class="detailText">✓ ${d.confidence}-confidence • Verified ${d.verified}</div><div class="detailActions"><button class="detailSave" type="button" onclick="event.stopPropagation();toggleSave(${d.id});render()">${saved.has(d.id)?'♥ SAVED':'♡ SAVE DEAL'}</button></div></div></details>`).join(''):'<div class="empty">No tonight deals found in this area.</div>'}</div></div>`;}let fam=available.filter(d=>d.category==='Family');let famLive=fam.filter(isHappeningNow).sort((a,b)=>(b.score||0)-(a.score||0));let famSoon=fam.filter(startsSoon).sort((a,b)=>(b.score||0)-(a.score||0));let fh=document.getElementById('familyHeader');if(fh)fh.textContent=famLive.length?`🔥 ${famLive.length} FAMILY DEAL${famLive.length===1?'':'S'} LIVE NOW`:'👨‍👩‍👧 FAMILY DEALS';let fhero=document.getElementById('familyHero');if(fhero){if(famLive.length){let b=famLive[0];fhero.innerHTML=`<div class="bestBet"><div class="bestBetTitle">🏆 BEST FAMILY BET RIGHT NOW</div><div class="bestBetBiz">${b.business}</div><div class="bestBetDeal">${b.deal}</div><div class="bestBetMeta"><span class="bestBetScore">SCORE ${b.score}</span> ${currentEndLabel(b)}<br>📍 ${b.city} • ${b.days} • ${b.time}</div></div>`}else if(fam.length){let b=fam.slice().sort((a,b)=>(b.score||0)-(a.score||0))[0];fhero.innerHTML=`<div class="bestBet"><div class="bestBetTitle">💰 TOP FAMILY VALUE</div><div class="bestBetBiz">${b.business}</div><div class="bestBetDeal">${b.deal}</div><div class="bestBetMeta"><span class="bestBetScore">SCORE ${b.score}</span><br>📍 ${b.city} • ${b.days} • ${b.time}</div></div>`}else fhero.innerHTML=''}let fq=document.getElementById('familyQuick');if(fq)fq.innerHTML=`<button class="filter" type="button" onclick="show('deals');setCat('Family',document.querySelector('#deals .filter:nth-child(5)'))">SEE ALL FAMILY DEALS →</button>${famLive.length?'<button class="filter" type="button" onclick="show(\'deals\');setCat(\'LIVE\',document.querySelector(\'#deals .filter:nth-child(2)\'))">🔥 LIVE FAMILY</button>':''}${famSoon.length?'<button class="filter" type="button" onclick="show(\'deals\');setCat(\'STARTING\',document.querySelector(\'#deals .filter:nth-child(4)\'))">🕒 STARTING SOON</button>':''}`;document.getElementById('familyList').innerHTML=fam.map(card).join('')||'<div class="empty">No family deals in this area.</div>';renderSaved();renderMap()}
-function currentEndLabel(d){if(!isHappeningNow(d))return '';let t=(d.time||'').toLowerCase();if(/all day|daily/.test(t))return '🔥 HAPPENING NOW • ALL DAY';let parts=t.replace(/–/g,'-').split('-');if(parts.length<2)return '🔥 HAPPENING NOW';let end=parts[1].trim();if(end.includes('close'))return '🔥 HAPPENING NOW • UNTIL CLOSE';let endMins=minutesFromTime(end);if(endMins!=null){let now=new Date(),nowMins=now.getHours()*60+now.getMinutes(),delta=endMins-nowMins;if(delta<0)delta+=1440;let countdown=delta<60?delta+' MIN':Math.floor(delta/60)+' HR'+(Math.floor(delta/60)>1?'S':'')+(delta%60? ' '+(delta%60)+' MIN':'');return '🔥 HAPPENING NOW • ENDS IN '+countdown+' • '+end.toUpperCase()}return '🔥 HAPPENING NOW • ENDS '+end.toUpperCase()}
-function startsSoonLabel(d){if(!startsSoon(d))return '';let now=new Date(),mins=now.getHours()*60+now.getMinutes(),time=(d.time||'').toLowerCase(),parts=time.replace(/–/g,'-').split('-');if(parts.length<2)return '⏰ STARTING SOON';let start=minutesFromTime(parts[0].trim()+(parts[0].match(/am|pm/i)?'':(parts[1].match(/am|pm/i)||['','','pm'])[0]));if(start==null)return '⏰ STARTING SOON';let delta=start-mins;return '⏰ STARTS IN '+(delta<60?delta+' MIN':Math.floor(delta/60)+' HR'+(Math.floor(delta/60)>1?'S':''))}
+function currentEndLabel(d){
+  if(!isHappeningNow(d))return '';
+  const t=(d.time||'').toLowerCase();
+  if(/all day|daily/.test(t))return '🔥 HAPPENING NOW • ALL DAY';
+  const until=t.match(/(?:until|through|thru)\s+(\d{1,2}(?::\d{2})?\s*(?:am|pm))/i);
+  const nowMins=new Date().getHours()*60+new Date().getMinutes();
+  if(until){
+    const end=minutesFromTime(until[1]);
+    if(end==null)return '🔥 HAPPENING NOW';
+    const delta=Math.max(0,end-nowMins);
+    const countdown=delta<60?delta+' MIN':Math.floor(delta/60)+' HR'+(Math.floor(delta/60)>1?'S':'')+(delta%60?' '+(delta%60)+' MIN':'');
+    return '🔥 HAPPENING NOW • ENDS IN '+countdown+' • '+until[1].toUpperCase();
+  }
+  const active=timeWindows(t).find(w=>nowMins>=w.start&&nowMins<=Math.min(w.end,1439));
+  if(!active)return '🔥 HAPPENING NOW';
+  if(active.close)return '🔥 HAPPENING NOW • UNTIL CLOSE';
+  const delta=Math.max(0,active.end-nowMins);
+  const countdown=delta<60?delta+' MIN':Math.floor(delta/60)+' HR'+(Math.floor(delta/60)>1?'S':'')+(delta%60?' '+(delta%60)+' MIN':'');
+  return '🔥 HAPPENING NOW • ENDS IN '+countdown+' • '+active.endLabel.toUpperCase();
+}
+
+
+function startsSoonLabel(d){
+  if(!startsSoon(d))return '';
+  const nowMins=new Date().getHours()*60+new Date().getMinutes();
+  const next=timeWindows(d.time).find(w=>w.start>nowMins&&w.start-nowMins<=180);
+  if(!next)return '⏰ STARTING SOON';
+  const delta=next.start-nowMins;
+  return '⏰ STARTS IN '+(delta<60?delta+' MIN':Math.floor(delta/60)+' HR'+(Math.floor(delta/60)>1?'S':''));
+}
+
+
 function verificationAgeDays(d){if(!d||typeof d.verified!=="string"||!/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(d.verified))return null;let dt=new Date(d.verified+"T12:00:00");if(isNaN(dt.getTime())||dt.toISOString().slice(0,10)!==d.verified)return null;return Math.floor((Date.now()-dt.getTime())/86400000);}
 function isFreshForLive(d){let age=verificationAgeDays(d);return age!==null&&age>=0&&age<=7;}
 function freshnessLabel(d){let days=verificationAgeDays(d);if(days===null||days<0||days>7)return "⚠ NEEDS RECHECK";return days===0?"✓ VERIFIED TODAY":days===1?"✓ VERIFIED YESTERDAY":"✓ VERIFIED "+days+" DAYS AGO";}

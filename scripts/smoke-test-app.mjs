@@ -38,6 +38,52 @@ assert.equal(helpers.minutesFromTime('12 AM'), 0, '12 AM converts to midnight');
 assert.equal(helpers.minutesFromTime('12 PM'), 720, '12 PM converts to noon');
 assert.equal(helpers.minutesFromTime('invalid'), null, 'unrecognized time returns null');
 
+const timeWindowsSource = html.match(/function timeWindows\(value\)\s*\{[\s\S]*?\n\}/);
+const isHappeningNowSource = html.match(/function isHappeningNow\(d\)\s*\{[\s\S]*?\n\}/);
+const startsSoonSource = html.match(/function startsSoon\(d\)\s*\{[\s\S]*?\n\}/);
+const minutesRemainingSource = html.match(/function minutesRemaining\(d\)\s*\{[\s\S]*?\n\}/);
+const isTonightSource = html.match(/function isTonight\(d\)\s*\{[\s\S]*?\n\}/);
+const currentEndLabelSource = html.match(/function currentEndLabel\(d\)\s*\{[\s\S]*?\n\}/);
+const startsSoonLabelSource = html.match(/function startsSoonLabel\(d\)\s*\{[\s\S]*?\n\}/);
+const tonightLabelSource = html.match(/function tonightLabel\(d\)\s*\{[\s\S]*?\n\}/);
+assert.ok([timeWindowsSource,isHappeningNowSource,startsSoonSource,minutesRemainingSource,isTonightSource,currentEndLabelSource,startsSoonLabelSource,tonightLabelSource].every(Boolean), 'multi-window schedule helpers must exist');
+
+function scheduleAt(isoTime) {
+  const fixed = Date.parse(isoTime);
+  class FixedDate extends Date {
+    constructor(...args) { super(...(args.length ? args : [fixed])); }
+    static now() { return fixed; }
+  }
+  const source = [
+    'function isFreshForLive(){ return true; }',
+    dayMatchesSource[0], minutesFromTimeSource[0], timeWindowsSource[0],
+    isHappeningNowSource[0], startsSoonSource[0], minutesRemainingSource[0],
+    isTonightSource[0], currentEndLabelSource[0], startsSoonLabelSource[0],
+    tonightLabelSource[0],
+    '({ timeWindows, isHappeningNow, startsSoon, minutesRemaining, isTonight, currentEndLabel, startsSoonLabel, tonightLabel })'
+  ].join('\n');
+  return vm.runInNewContext(source, { Date: FixedDate });
+}
+
+const twoWindowDeal = { days: 'Daily', time: '3 PM-6 PM; 9 PM-close', verified: '2026-10-26' };
+const atFour = scheduleAt('2026-10-29T16:00:00Z');
+assert.equal(atFour.isHappeningNow(twoWindowDeal), true, 'first daily window should be live at 4 PM');
+assert.equal(atFour.minutesRemaining(twoWindowDeal), 120, 'ending-soon logic should use the active first window, not the later close window');
+assert.match(atFour.currentEndLabel(twoWindowDeal), /ENDS IN 2 HRS/);
+
+const atEight = scheduleAt('2026-10-29T20:00:00Z');
+assert.equal(atEight.isHappeningNow(twoWindowDeal), false, 'gap between happy-hour windows should not be live');
+assert.equal(atEight.startsSoon(twoWindowDeal), true, 'second daily window should count as starting soon');
+assert.equal(atEight.isTonight(twoWindowDeal), true, 'second daily window should appear in tonight filter');
+assert.match(atEight.startsSoonLabel(twoWindowDeal), /STARTS IN 1 HR/);
+assert.match(atEight.tonightLabel(twoWindowDeal), /STARTS AT 9 PM/);
+
+const atNineThirty = scheduleAt('2026-10-29T21:30:00Z');
+assert.equal(atNineThirty.isHappeningNow(twoWindowDeal), true, 'second daily window should be live at 9:30 PM');
+assert.equal(atNineThirty.minutesRemaining(twoWindowDeal), Infinity, 'a close-ending window should not show a false countdown');
+assert.match(atNineThirty.currentEndLabel(twoWindowDeal), /UNTIL CLOSE/);
+assert.equal(JSON.stringify(atNineThirty.timeWindows(twoWindowDeal.time).map(w => [w.start,w.end,w.close])), JSON.stringify([[900,1080,false],[1260,1439,true]]));
+
 // Ensure the app's key browsing paths remain present in the page source.
 for (const name of ['filteredDeals', 'renderDeals', 'renderMap', 'nearbyDeals', 'isHappeningNow']) {
   assert.match(html, new RegExp(`function ${name}\\(`), `${name} should remain defined`);
@@ -65,4 +111,4 @@ assert.ok(tenMileDeals.every(deal => Number.isFinite(deal.lat) && Number.isFinit
 mapHelpers.setRadius(2);
 assert.ok(mapHelpers.nearbyDeals().every(deal => deal.distance <= 2), 'a smaller radius must exclude distant pins');
 
-console.log(`PASS: ${inlineScripts.length} inline scripts parse; schedule and map-radius tests pass; core search/map functions exist.`);
+console.log(`PASS: ${inlineScripts.length} inline scripts parse; schedule, multi-window, and map-radius tests pass; core search/map functions exist.`);
