@@ -91,6 +91,34 @@ for (const name of ['filteredDeals', 'renderDeals', 'renderMap', 'nearbyDeals', 
 assert.ok(html.includes('BALLIN_FALLBACK_DEALS'), 'embedded fallback should remain present');
 assert.ok(deals.length > 0, 'canonical deal data should not be empty');
 
+const matchesSearchSource = html.match(/function matchesDealSearch\\(d,q\\)\\s*\\{[\\s\\S]*?\\n\\}/);
+const matchesCategorySource = html.match(/function matchesDealCategory\\(d,selected\\)\\s*\\{[\\s\\S]*?\\n\\}/);
+assert.ok(matchesSearchSource && matchesCategorySource, 'search and category filter helpers must exist');
+const filters = vm.runInNewContext([
+  'const saved = new Set([333]);',
+  'function isHappeningNow(d){ return d.id === 333; }',
+  'function minutesRemaining(){ return 30; }',
+  'function startsSoon(d){ return d.id === 334; }',
+  'function isTonight(d){ return d.id === 334; }',
+  matchesSearchSource[0], matchesCategorySource[0],
+  '({ matchesDealSearch, matchesDealCategory })'
+].join('\\n'));
+const searchableDeal = { id:333, business:'Four Silos Craft Coffee & Beer House', city:'Gilbert', category:'Food', deal:'$2 Off Cheese Pizza', days:'Daily', terms:'Daily happy-hour discount' };
+assert.equal(filters.matchesDealSearch(searchableDeal, 'cheese pizza'), true, 'search should find deal terms');
+assert.equal(filters.matchesDealSearch(searchableDeal, 'FOUR SILOS'), true, 'search should be case-insensitive');
+assert.equal(filters.matchesDealSearch(searchableDeal, 'Gilbert'), true, 'search should include city');
+assert.equal(filters.matchesDealSearch(searchableDeal, 'unrelated phrase'), false, 'search should exclude non-matches');
+assert.equal(filters.matchesDealSearch(searchableDeal, ''), true, 'empty search should preserve all deals');
+assert.equal(filters.matchesDealCategory(searchableDeal, 'ALL'), true, 'ALL category should preserve deal');
+assert.equal(filters.matchesDealCategory(searchableDeal, 'Food'), true, 'matching category should include deal');
+assert.equal(filters.matchesDealCategory(searchableDeal, 'Drinks'), false, 'different category should exclude deal');
+assert.equal(filters.matchesDealCategory(searchableDeal, 'SAVED'), true, 'saved filter should include saved deals');
+assert.equal(filters.matchesDealCategory({ ...searchableDeal, id:334 }, 'SAVED'), false, 'saved filter should exclude unsaved deals');
+assert.equal(filters.matchesDealCategory(searchableDeal, 'LIVE'), true, 'live filter should use live status');
+assert.equal(filters.matchesDealCategory(searchableDeal, 'ENDING'), true, 'ending-soon filter should use live status and remaining minutes');
+assert.equal(filters.matchesDealCategory({ ...searchableDeal, id:334 }, 'STARTING'), true, 'starting-soon filter should use schedule status');
+assert.equal(filters.matchesDealCategory({ ...searchableDeal, id:334 }, 'TONIGHT'), true, 'tonight filter should use schedule status');
+
 const milesBetweenSource = html.match(/function milesBetween\(lat1,lon1,lat2,lon2\)\s*\{[^\n]*\}/);
 const locationCenterSource = html.match(/function locationCenter\(\)\s*\{[^\n]*\}/);
 const nearbyDealsSource = html.match(/function nearbyDeals\(\)\s*\{[^\n]*\}/);
@@ -111,4 +139,4 @@ assert.ok(tenMileDeals.every(deal => Number.isFinite(deal.lat) && Number.isFinit
 mapHelpers.setRadius(2);
 assert.ok(mapHelpers.nearbyDeals().every(deal => deal.distance <= 2), 'a smaller radius must exclude distant pins');
 
-console.log(`PASS: ${inlineScripts.length} inline scripts parse; schedule, multi-window, and map-radius tests pass; core search/map functions exist.`);
+console.log(`PASS: ${inlineScripts.length} inline scripts parse; search, category-filter, schedule, multi-window, and map-radius tests pass; core search/map functions exist.`);
