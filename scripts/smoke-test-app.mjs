@@ -7,21 +7,21 @@ const html = readFileSync('index.html', 'utf8');
 const deals = JSON.parse(readFileSync('data/deals.json', 'utf8'));
 
 // Compile every inline JavaScript block without executing browser-only code.
-const inlineScripts = [...html.matchAll(/<script\\b([^>]*)>([\\s\\S]*?)<\\/script>/gi)]
-  .filter(([, attributes, body]) => !/\\bsrc\\s*=/.test(attributes) && body.trim());
+const inlineScripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)]
+  .filter(([, attributes, body]) => !/\bsrc\s*=/.test(attributes) && body.trim());
 assert.ok(inlineScripts.length > 0, 'Expected inline JavaScript in index.html');
 for (const [index, match] of inlineScripts.entries()) {
   new vm.Script(match[2], { filename: `index.html:inline-script-${index + 1}` });
 }
 
 // Exercise the real day/time helpers from index.html with representative cases.
-const dayMatchesSource = html.match(/function dayMatches\\(days, day\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const minutesFromTimeSource = html.match(/function minutesFromTime\\(t\\)\\s*\\{[^\\n]*\\}/);
+const dayMatchesSource = html.match(/function dayMatches\(days, day\)\s*\{[\s\S]*?\n\}/);
+const minutesFromTimeSource = html.match(/function minutesFromTime\(t\)\s*\{[^\n]*\}/);
 assert.ok(dayMatchesSource, 'dayMatches helper must exist');
 assert.ok(minutesFromTimeSource, 'minutesFromTime helper must exist');
 
 const helpers = vm.runInNewContext(
-  `${dayMatchesSource[0]}\\n${minutesFromTimeSource[0]}\\n({ dayMatches, minutesFromTime })`
+  `${dayMatchesSource[0]}\n${minutesFromTimeSource[0]}\n({ dayMatches, minutesFromTime })`
 );
 
 assert.equal(helpers.dayMatches('Monday-Friday', 1), true, 'weekday range includes Monday');
@@ -40,7 +40,7 @@ assert.equal(helpers.minutesFromTime('invalid'), null, 'unrecognized time return
 
 // Ensure the app's key browsing paths remain present in the page source.
 for (const name of ['filteredDeals', 'renderDeals', 'renderMap', 'nearbyDeals', 'isHappeningNow']) {
-  assert.match(html, new RegExp(`function ${name}\\\\(`), `${name} should remain defined`);
+  assert.match(html, new RegExp(`function ${name}\\(`), `${name} should remain defined`);
 }
 assert.ok(html.includes('BALLIN_FALLBACK_DEALS'), 'embedded fallback should remain present');
 assert.ok(deals.length > 0, 'canonical deal data should not be empty');
