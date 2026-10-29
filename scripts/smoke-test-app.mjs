@@ -61,7 +61,7 @@ function scheduleAt(isoTime) {
     isTonightSource[0], currentEndLabelSource[0], startsSoonLabelSource[0],
     tonightLabelSource[0],
     '({ timeWindows, isHappeningNow, startsSoon, minutesRemaining, isTonight, currentEndLabel, startsSoonLabel, tonightLabel })'
-  ].join('\\n');
+  ].join('\n');
   return vm.runInNewContext(source, { Date: FixedDate });
 }
 
