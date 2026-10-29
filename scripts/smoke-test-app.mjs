@@ -91,8 +91,8 @@ for (const name of ['filteredDeals', 'renderDeals', 'renderMap', 'nearbyDeals', 
 assert.ok(html.includes('BALLIN_FALLBACK_DEALS'), 'embedded fallback should remain present');
 assert.ok(deals.length > 0, 'canonical deal data should not be empty');
 
-const matchesSearchSource = html.match(/function matchesDealSearch\\(d,q\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const matchesCategorySource = html.match(/function matchesDealCategory\\(d,selected\\)\\s*\\{[\\s\\S]*?\\n\\}/);
+const matchesSearchSource = html.match(/function matchesDealSearch\(d,q\)\s*\{[\s\S]*?\n\}/);
+const matchesCategorySource = html.match(/function matchesDealCategory\(d,selected\)\s*\{[\s\S]*?\n\}/);
 assert.ok(matchesSearchSource && matchesCategorySource, 'search and category filter helpers must exist');
 const filters = vm.runInNewContext([
   'const saved = new Set([333]);',
@@ -102,7 +102,7 @@ const filters = vm.runInNewContext([
   'function isTonight(d){ return d.id === 334; }',
   matchesSearchSource[0], matchesCategorySource[0],
   '({ matchesDealSearch, matchesDealCategory })'
-].join('\\n'));
+].join('\n'));
 const searchableDeal = { id:333, business:'Four Silos Craft Coffee & Beer House', city:'Gilbert', category:'Food', deal:'$2 Off Cheese Pizza', days:'Daily', terms:'Daily happy-hour discount' };
 assert.equal(filters.matchesDealSearch(searchableDeal, 'cheese pizza'), true, 'search should find deal terms');
 assert.equal(filters.matchesDealSearch(searchableDeal, 'FOUR SILOS'), true, 'search should be case-insensitive');
