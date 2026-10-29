@@ -129,8 +129,9 @@ const locationCenterSource = html.match(/function locationCenter\(\)\s*\{[^\n]*\
 const nearbyDealsSource = html.match(/function nearbyDeals\(\)\s*\{[^\n]*\}/);
 assert.ok(milesBetweenSource && locationCenterSource && nearbyDealsSource, 'map distance helpers must exist');
 
+const mapTestDeals = [...deals, { id:999, business:'Test deal without coordinates', city:'Gilbert', lat:null, lng:null, score:1 }];
 const mapHelpers = vm.runInNewContext(
-  `const deals = ${JSON.stringify([...JSON.parse((await readFileSync('data/deals.json', 'utf8'))), { id:999, business:'Test deal without coordinates', city:'Gilbert', lat:null, lng:null, score:1 }])}; let userLocation = 'Gilbert', userRadius = 10;
+  `const deals = ${JSON.stringify(mapTestDeals)}; let userLocation = 'Gilbert', userRadius = 10;
   ${milesBetweenSource[0]}\n${locationCenterSource[0]}\n${nearbyDealsSource[0]}
   ({ nearbyDeals, setRadius(value) { userRadius = value; } })`
 );
