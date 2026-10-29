@@ -6,6 +6,7 @@ import vm from 'node:vm';
 const html = readFileSync('index.html', 'utf8');
 const deals = JSON.parse(readFileSync('data/deals.json', 'utf8'));
 const serviceWorker = readFileSync('sw.js', 'utf8');
+new vm.Script(serviceWorker, { filename: 'sw.js' });
 
 // Compile every inline JavaScript block without executing browser-only code.
 const inlineScripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)]
