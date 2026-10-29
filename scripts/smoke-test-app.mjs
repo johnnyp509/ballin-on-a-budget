@@ -5,6 +5,7 @@ import vm from 'node:vm';
 
 const html = readFileSync('index.html', 'utf8');
 const deals = JSON.parse(readFileSync('data/deals.json', 'utf8'));
+const serviceWorker = readFileSync('sw.js', 'utf8');
 
 // Compile every inline JavaScript block without executing browser-only code.
 const inlineScripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)]
@@ -89,6 +90,9 @@ for (const name of ['filteredDeals', 'renderDeals', 'renderMap', 'nearbyDeals', 
   assert.match(html, new RegExp(`function ${name}\\(`), `${name} should remain defined`);
 }
 assert.ok(html.includes('BALLIN_FALLBACK_DEALS'), 'embedded fallback should remain present');
+assert.match(serviceWorker, /CACHE_NAME = "ballin-budget-v6"/, 'service worker cache version should be bumped');
+assert.match(serviceWorker, /event\.request\.mode === "navigate"/, 'app navigation should use a network-first strategy');
+assert.match(serviceWorker, /caches\.match\("\.\/index\.html"\)/, 'offline navigation should fall back to the cached app shell');
 assert.ok(deals.length > 0, 'canonical deal data should not be empty');
 
 const matchesSearchSource = html.match(/function matchesDealSearch\(d,q\)\s*\{[\s\S]*?\n\}/);
