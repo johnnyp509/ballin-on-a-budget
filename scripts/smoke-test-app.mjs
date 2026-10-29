@@ -40,19 +40,19 @@ assert.equal(helpers.minutesFromTime('invalid'), null, 'unrecognized time return
 
 // Ensure the app's key browsing paths remain present in the page source.
 for (const name of ['filteredDeals', 'renderDeals', 'renderMap', 'nearbyDeals', 'isHappeningNow']) {
-  assert.match(html, new RegExp(`function ${name}\\(`), `${name} should remain defined`);
+  assert.match(html, new RegExp(`function ${name}\(`), `${name} should remain defined`);
 }
 assert.ok(html.includes('BALLIN_FALLBACK_DEALS'), 'embedded fallback should remain present');
 assert.ok(deals.length > 0, 'canonical deal data should not be empty');
 
-const milesBetweenSource = html.match(/function milesBetween\\(lat1,lon1,lat2,lon2\\)\\s*\\{[^\\n]*\\}/);
-const locationCenterSource = html.match(/function locationCenter\\(\\)\\s*\\{[^\\n]*\\}/);
-const nearbyDealsSource = html.match(/function nearbyDeals\\(\\)\\s*\\{[^\\n]*\\}/);
+const milesBetweenSource = html.match(/function milesBetween\(lat1,lon1,lat2,lon2\)\s*\{[^\n]*\}/);
+const locationCenterSource = html.match(/function locationCenter\(\)\s*\{[^\n]*\}/);
+const nearbyDealsSource = html.match(/function nearbyDeals\(\)\s*\{[^\n]*\}/);
 assert.ok(milesBetweenSource && locationCenterSource && nearbyDealsSource, 'map distance helpers must exist');
 
 const mapHelpers = vm.runInNewContext(
   `const deals = ${JSON.stringify(deals)}; let userLocation = 'Gilbert', userRadius = 10;
-  ${milesBetweenSource[0]}\\n${locationCenterSource[0]}\\n${nearbyDealsSource[0]}
+  ${milesBetweenSource[0]}\n${locationCenterSource[0]}\n${nearbyDealsSource[0]}
   ({ nearbyDeals, setRadius(value) { userRadius = value; } })`
 );
 const tenMileDeals = mapHelpers.nearbyDeals();
