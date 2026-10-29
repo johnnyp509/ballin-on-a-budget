@@ -10,6 +10,7 @@ on:
       - 'scripts/smoke-test-app.mjs'
       - '.github/workflows/validate-deals.yml'
   push:
+    branches: [main]
     paths:
       - 'data/deals.json'
       - 'index.html'
