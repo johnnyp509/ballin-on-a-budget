@@ -26,7 +26,7 @@ function extractFallback(html) {
     const char = html[i];
     if (inString) {
       if (escaped) escaped = false;
-      else if (char === '\\\\') escaped = true;
+      else if (char === '\\') escaped = true;
       else if (char === '"') inString = false;
       continue;
     }
