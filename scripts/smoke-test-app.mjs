@@ -40,7 +40,7 @@ assert.equal(helpers.minutesFromTime('invalid'), null, 'unrecognized time return
 
 // Ensure the app's key browsing paths remain present in the page source.
 for (const name of ['filteredDeals', 'renderDeals', 'renderMap', 'nearbyDeals', 'isHappeningNow']) {
-  assert.match(html, new RegExp(`function ${name}\(`), `${name} should remain defined`);
+  assert.match(html, new RegExp(`function ${name}\\(`), `${name} should remain defined`);
 }
 assert.ok(html.includes('BALLIN_FALLBACK_DEALS'), 'embedded fallback should remain present');
 assert.ok(deals.length > 0, 'canonical deal data should not be empty');
