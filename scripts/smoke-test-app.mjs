@@ -45,4 +45,24 @@ for (const name of ['filteredDeals', 'renderDeals', 'renderMap', 'nearbyDeals', 
 assert.ok(html.includes('BALLIN_FALLBACK_DEALS'), 'embedded fallback should remain present');
 assert.ok(deals.length > 0, 'canonical deal data should not be empty');
 
-console.log(`PASS: ${inlineScripts.length} inline scripts parse; schedule helper tests pass; core search/map functions exist.`);
+const milesBetweenSource = html.match(/function milesBetween\\(lat1,lon1,lat2,lon2\\)\\s*\\{[^\\n]*\\}/);
+const locationCenterSource = html.match(/function locationCenter\\(\\)\\s*\\{[^\\n]*\\}/);
+const nearbyDealsSource = html.match(/function nearbyDeals\\(\\)\\s*\\{[^\\n]*\\}/);
+assert.ok(milesBetweenSource && locationCenterSource && nearbyDealsSource, 'map distance helpers must exist');
+
+const mapHelpers = vm.runInNewContext(
+  `const deals = ${JSON.stringify(deals)}; let userLocation = 'Gilbert', userRadius = 10;
+  ${milesBetweenSource[0]}\\n${locationCenterSource[0]}\\n${nearbyDealsSource[0]}
+  ({ nearbyDeals, setRadius(value) { userRadius = value; } })`
+);
+const tenMileDeals = mapHelpers.nearbyDeals();
+assert.ok(tenMileDeals.some(deal => deal.id === 326), 'Hop Social Grill should be mappable within 10 miles of Gilbert');
+for (const id of [333, 334, 335, 336, 337, 338]) {
+  assert.ok(tenMileDeals.some(deal => deal.id === id), `Four Silos deal ${id} should be mappable within 10 miles of Gilbert`);
+}
+assert.ok(!tenMileDeals.some(deal => [375, 376, 377, 378].includes(deal.id)), 'deals without coordinates should not create map pins');
+assert.ok(tenMileDeals.every(deal => Number.isFinite(deal.lat) && Number.isFinite(deal.lng) && deal.distance <= 10), 'map results must have coordinates and respect the radius');
+mapHelpers.setRadius(2);
+assert.ok(mapHelpers.nearbyDeals().every(deal => deal.distance <= 2), 'a smaller radius must exclude distant pins');
+
+console.log(`PASS: ${inlineScripts.length} inline scripts parse; schedule and map-radius tests pass; core search/map functions exist.`);
