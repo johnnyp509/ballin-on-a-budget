@@ -41,7 +41,7 @@ self.addEventListener("fetch", event => {
     return;
   }
 
-  const isDealData = url.origin === location.origin && /\\/data\\/deals\\.json$/.test(url.pathname);
+  const isDealData = url.origin === location.origin && /\/data\/deals\.json$/.test(url.pathname);
   if (isDealData) {
     // Deal data is network-first so published corrections are not hidden behind stale cache.
     event.respondWith(
