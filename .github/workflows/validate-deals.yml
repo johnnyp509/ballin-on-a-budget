@@ -26,3 +26,5 @@ jobs:
           node-version: 20
       - name: Validate canonical data and embedded fallback
         run: node scripts/validate-deals.mjs
+      - name: Smoke-test inline scripts and schedule helpers
+        run: node scripts/smoke-test-app.mjs
