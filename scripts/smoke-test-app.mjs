@@ -38,14 +38,14 @@ assert.equal(helpers.minutesFromTime('12 AM'), 0, '12 AM converts to midnight');
 assert.equal(helpers.minutesFromTime('12 PM'), 720, '12 PM converts to noon');
 assert.equal(helpers.minutesFromTime('invalid'), null, 'unrecognized time returns null');
 
-const timeWindowsSource = html.match(/function timeWindows\\(value\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const isHappeningNowSource = html.match(/function isHappeningNow\\(d\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const startsSoonSource = html.match(/function startsSoon\\(d\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const minutesRemainingSource = html.match(/function minutesRemaining\\(d\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const isTonightSource = html.match(/function isTonight\\(d\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const currentEndLabelSource = html.match(/function currentEndLabel\\(d\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const startsSoonLabelSource = html.match(/function startsSoonLabel\\(d\\)\\s*\\{[\\s\\S]*?\\n\\}/);
-const tonightLabelSource = html.match(/function tonightLabel\\(d\\)\\s*\\{[\\s\\S]*?\\n\\}/);
+const timeWindowsSource = html.match(/function timeWindows\(value\)\s*\{[\s\S]*?\n\}/);
+const isHappeningNowSource = html.match(/function isHappeningNow\(d\)\s*\{[\s\S]*?\n\}/);
+const startsSoonSource = html.match(/function startsSoon\(d\)\s*\{[\s\S]*?\n\}/);
+const minutesRemainingSource = html.match(/function minutesRemaining\(d\)\s*\{[\s\S]*?\n\}/);
+const isTonightSource = html.match(/function isTonight\(d\)\s*\{[\s\S]*?\n\}/);
+const currentEndLabelSource = html.match(/function currentEndLabel\(d\)\s*\{[\s\S]*?\n\}/);
+const startsSoonLabelSource = html.match(/function startsSoonLabel\(d\)\s*\{[\s\S]*?\n\}/);
+const tonightLabelSource = html.match(/function tonightLabel\(d\)\s*\{[\s\S]*?\n\}/);
 assert.ok([timeWindowsSource,isHappeningNowSource,startsSoonSource,minutesRemainingSource,isTonightSource,currentEndLabelSource,startsSoonLabelSource,tonightLabelSource].every(Boolean), 'multi-window schedule helpers must exist');
 
 function scheduleAt(isoTime) {
