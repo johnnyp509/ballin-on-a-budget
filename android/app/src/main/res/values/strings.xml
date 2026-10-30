@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ballin\' on a Budget</string>
+    <string name="title_activity_main">Ballin\' on a Budget</string>
+    <string name="package_name">com.ballinonabudget.app</string>
+    <string name="custom_url_scheme">com.ballinonabudget.app</string>
+</resources>
