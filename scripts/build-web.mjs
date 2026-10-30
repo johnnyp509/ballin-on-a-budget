@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { cp, mkdir, rm, stat } from 'node:fs/promises';
-import { resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
 
 const root = process.cwd();
 const output = resolve(root, 'www');
@@ -25,7 +25,9 @@ await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 
 for (const relativePath of requiredFiles) {
-  await cp(resolve(root, relativePath), resolve(output, relativePath));
+  const destination = resolve(output, relativePath);
+  await mkdir(dirname(destination), { recursive: true });
+  await cp(resolve(root, relativePath), destination);
 }
 
 console.log('PASS: copied app shell, manifest, service worker, and canonical deal data into www/.');
