@@ -7,6 +7,7 @@ on:
       - 'manifest.webmanifest'
       - 'sw.js'
       - 'data/**'
+      - 'assets/**'
       - 'scripts/build-web.mjs'
       - 'package.json'
       - 'capacitor.config.json'
@@ -18,6 +19,7 @@ on:
       - 'manifest.webmanifest'
       - 'sw.js'
       - 'data/**'
+      - 'assets/**'
       - 'scripts/build-web.mjs'
       - 'package.json'
       - 'capacitor.config.json'
@@ -43,4 +45,6 @@ jobs:
           test -s www/manifest.webmanifest
           test -s www/sw.js
           test -s www/data/deals.json
+          test -s www/icons/icon-192.png
+          test -s www/icons/icon-512.png
           npx cap --version
