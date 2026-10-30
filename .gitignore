@@ -1,0 +1,15 @@
+node_modules/
+www/
+.DS_Store
+*.log
+
+# Android build output
+.gradle/
+**/build/
+local.properties
+captures/
+
+# iOS build output
+ios/Pods/
+ios/build/
+DerivedData/

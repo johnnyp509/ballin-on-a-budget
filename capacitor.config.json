@@ -1,0 +1,6 @@
+{
+  "appId": "com.ballinonabudget.app",
+  "appName": "Ballin' on a Budget",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

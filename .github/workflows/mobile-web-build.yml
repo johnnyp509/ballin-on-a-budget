@@ -1,0 +1,50 @@
+name: Validate mobile web bundle
+
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'manifest.webmanifest'
+      - 'sw.js'
+      - 'data/**'
+      - 'assets/**'
+      - 'scripts/build-web.mjs'
+      - 'package.json'
+      - 'capacitor.config.json'
+      - '.github/workflows/mobile-web-build.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'manifest.webmanifest'
+      - 'sw.js'
+      - 'data/**'
+      - 'assets/**'
+      - 'scripts/build-web.mjs'
+      - 'package.json'
+      - 'capacitor.config.json'
+      - '.github/workflows/mobile-web-build.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm install
+      - name: Build native web bundle
+        run: npm run build:web
+      - name: Verify Capacitor configuration and bundled assets
+        run: |
+          test -s www/index.html
+          test -s www/manifest.webmanifest
+          test -s www/sw.js
+          test -s www/data/deals.json
+          test -s www/icons/icon-192.png
+          test -s www/icons/icon-512.png
+          npx cap --version
