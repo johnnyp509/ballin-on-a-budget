@@ -39,6 +39,7 @@ The working branch contains 373 deal records in `data/deals.json`, with an embed
 
 ### Gate 2 — Native mobile foundation
 - Review the generated native projects and icon assets in the mobile branch.
+- Foreground location permissions are declared for Android, and iOS now has a clear when-in-use location purpose string. Verify the actual permission prompt and geolocation flow on physical devices before release.
 - Install and test on physical iPhone and Android devices; check navigation, external links, map/location behavior, offline/update behavior, and safe-area/layout behavior.
 - Review generated platform icons, permissions, app display name, package identifier, and native configuration.
 - Test on physical iPhone and Android devices.
