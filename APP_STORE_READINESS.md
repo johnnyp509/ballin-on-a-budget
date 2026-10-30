@@ -64,3 +64,7 @@ Do not describe the product as App Store-ready, subscription-ready, or productio
 ## Backend and subscription planning — 2026-10-30
 
 A provider-neutral implementation plan has been added in [BACKEND_SUBSCRIPTIONS_PLAN.md](BACKEND_SUBSCRIPTIONS_PLAN.md). It recommends Supabase for authentication/data and RevenueCat for native subscription entitlements, while leaving provider setup, pricing, free-vs-paid boundaries, and web checkout decisions for owner approval. No payment integration or database migration has been started.
+
+## Physical-device validation
+
+A repeatable [DEVICE_TEST_CHECKLIST.md](DEVICE_TEST_CHECKLIST.md) now covers installation, core deal discovery, search/filters, schedule accuracy, saved deals, map/location permissions, navigation/layout, offline fallback, and update behavior on real iPhone and Android devices. It is intentionally marked not yet executed; simulator/debug CI is not a substitute for physical-device sign-off.
