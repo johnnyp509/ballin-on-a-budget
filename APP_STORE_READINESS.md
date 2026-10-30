@@ -60,3 +60,7 @@ The working branch contains 373 deal records in `data/deals.json`, with an embed
 ## Important operating rule
 
 Do not describe the product as App Store-ready, subscription-ready, or production-updated until the corresponding release gate has actually passed. PR #63 and PR #64 are not merged, so their changes are not yet on `main`.
+
+## Backend and subscription planning — 2026-10-30
+
+A provider-neutral implementation plan has been added in [BACKEND_SUBSCRIPTIONS_PLAN.md](BACKEND_SUBSCRIPTIONS_PLAN.md). It recommends Supabase for authentication/data and RevenueCat for native subscription entitlements, while leaving provider setup, pricing, free-vs-paid boundaries, and web checkout decisions for owner approval. No payment integration or database migration has been started.
