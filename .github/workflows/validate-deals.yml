@@ -1,0 +1,35 @@
+name: Validate deal data
+
+on:
+  pull_request:
+    paths:
+      - 'data/deals.json'
+      - 'index.html'
+      - 'sw.js'
+      - 'scripts/validate-deals.mjs'
+      - 'scripts/smoke-test-app.mjs'
+      - '.github/workflows/validate-deals.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/deals.json'
+      - 'index.html'
+      - 'sw.js'
+      - 'scripts/validate-deals.mjs'
+      - 'scripts/smoke-test-app.mjs'
+      - '.github/workflows/validate-deals.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate canonical data and embedded fallback
+        run: node scripts/validate-deals.mjs
+      - name: Smoke-test inline scripts and schedule helpers
+        run: node scripts/smoke-test-app.mjs
