@@ -10,6 +10,15 @@ The project is a static, installable-web-app foundation with generated Capacitor
 
 The working branch contains 373 deal records in `data/deals.json`, with an embedded fallback snapshot in `index.html`. The production `main` branch currently contains 295 records. PR #63 is the reviewed path for bringing the app-refresh and data-integrity work to `main`; PR #64 adds the mobile packaging foundation on top of PR #63. Both remain review-only and unmerged.
 
+## Data health check — 2026-10-30
+
+- Canonical dataset: 373 deal records with 373 unique IDs.
+- Embedded offline fallback: exact match with `data/deals.json`.
+- Live-verification freshness: zero records older than the 7-day window.
+- Map coverage: zero records missing coordinates.
+- App smoke tests: inline scripts parse; search, category filters, schedule windows, and map-radius checks pass.
+- Evidence: GitHub Actions run [40991709036](https://github.com/johnnyp509/ballin-on-a-budget/actions/runs/40991709036) passed both deal-data validation and app smoke tests.
+
 ## Verified launch blockers
 
 - **Icons:** A branded SVG source lives at `assets/logo.svg`. The web build generates the 192px and 512px PWA PNG icons into `www/icons/`; the native icon generator has now generated Android and iOS icon/splash resources. Review the rendered icons on real device launchers before release.
