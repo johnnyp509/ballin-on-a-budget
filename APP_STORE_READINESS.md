@@ -1,19 +1,19 @@
 # Ballin' on a Budget — Launch Readiness
 
-Last reviewed: 2026-10-29
+Last reviewed: 2026-10-30
 Working branch: `mobile/capacitor-foundation-oct-2026`
 Production branch: `main`
 
 ## Current state
 
-The project is a static, installable-web-app foundation with a Capacitor 8 mobile packaging path in progress. It is not yet a tested native iOS or Android application and is not ready for paid public launch.
+The project is a static, installable-web-app foundation with generated Capacitor 8 iOS and Android projects. GitHub Actions run #4 successfully generated both native projects, generated platform icons, synchronized Capacitor, built the Android debug app, built the iOS simulator app, and committed the native projects to this working branch. It has not yet been installed or tested on physical devices and is not ready for paid public launch.
 
 The working branch contains 373 deal records in `data/deals.json`, with an embedded fallback snapshot in `index.html`. The production `main` branch currently contains 295 records. PR #63 is the reviewed path for bringing the app-refresh and data-integrity work to `main`; PR #64 adds the mobile packaging foundation on top of PR #63. Both remain review-only and unmerged.
 
 ## Verified launch blockers
 
-- **Icons:** A branded SVG source now lives at `assets/logo.svg`. The web build generates the 192px and 512px PWA PNG icons into `www/icons/`; the mobile build check verifies both outputs. The native icon generator is configured, but native platform icon output still needs to be generated and reviewed.
-- **Native apps:** Capacitor 8 dependencies, app identity, and web-bundle scripts are configured. The actual `android/` and `ios/` projects have not yet been generated. A manual GitHub Actions workflow is provided to generate, build, and commit them to the selected branch.
+- **Icons:** A branded SVG source lives at `assets/logo.svg`. The web build generates the 192px and 512px PWA PNG icons into `www/icons/`; the native icon generator has now generated Android and iOS icon/splash resources. Review the rendered icons on real device launchers before release.
+- **Native apps:** Capacitor 8 projects now exist in `android/` and `ios/`. GitHub Actions run #4 (`40991024812`) passed native project generation, native icon generation/sync, Android `assembleDebug`, and the iOS simulator `xcodebuild`; commit `7262a19fd4107754124eb44bc823ac587ab3a905` saved the generated projects. These are unsigned development/simulator builds, not store-ready release binaries.
 - **Accounts:** The current app does not implement user registration, sign-in, account recovery, or server-side user identity.
 - **Subscriptions:** No subscription entitlement or payment integration is present. Choose the monetization model and implement purchase, renewal, cancellation, restore-purchase, and access-control flows.
 - **Privacy and terms:** Add public privacy and terms documents that accurately describe location use, analytics, saved-deal storage, account data, and payment handling before collecting account or payment data.
@@ -29,8 +29,8 @@ The working branch contains 373 deal records in `data/deals.json`, with an embed
 - Remove or correct stale documentation and confirm the deployed GitHub Pages URL and custom-domain/HTTPS setup.
 
 ### Gate 2 — Native mobile foundation
-- Run `.github/workflows/generate-native-projects.yml` on the mobile branch.
-- Confirm Android debug and iOS simulator builds complete successfully.
+- Review the generated native projects and icon assets in the mobile branch.
+- Install and test on physical iPhone and Android devices; check navigation, external links, map/location behavior, offline/update behavior, and safe-area/layout behavior.
 - Review generated platform icons, permissions, app display name, package identifier, and native configuration.
 - Test on physical iPhone and Android devices.
 
